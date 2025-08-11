@@ -1,0 +1,1594 @@
+[
+    {
+        "name": "Guía práctica",
+        "category": "Unknown",
+        "data": [
+            {
+                "weight_raw": "PESO 150 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Material utilizado",
+        "category": "Unknown",
+        "data": [
+            {
+                "weight_raw": "PESO 240 g (78 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 60 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6 R"
+            },
+            {
+                "weight_raw": "PESO 160 g (52 g)*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 80 g (26 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "Arroz blanco hervido",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 400 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 70 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 7 R"
+            },
+            {
+                "weight_raw": "PESO 300 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 47,5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 5  R"
+            },
+            {
+                "weight_raw": "PESO 190 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 25 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2,5 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado (Peso crudo)"
+    },
+    {
+        "name": "Macarrones hervidos",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 300 g (90 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 60 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6 R"
+            },
+            {
+                "weight_raw": "PESO 200 g (60 g)*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 100 g (30 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado (Peso crudo)"
+    },
+    {
+        "name": "Macarrones con salsa de tomate",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 400 g (90 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 70 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 7 R"
+            },
+            {
+                "weight_raw": "PESO 275 g (60 g)*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 47,5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 5 R"
+            },
+            {
+                "weight_raw": "PESO 150 g (30 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 25 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,5R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado (Peso crudo)"
+    },
+    {
+        "name": "Espaguetis hervidos",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 300 g (90 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 60 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6 R"
+            },
+            {
+                "weight_raw": "PESO 200 g (60 g)*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 100 g (30 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "Espaguetis con salsa de tomate",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 400 g (90 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 70 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 7 R"
+            },
+            {
+                "weight_raw": "PESO 275 g (60 g)*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 47,5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 5 R"
+            },
+            {
+                "weight_raw": "PESO 150 g (30 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 25 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,5R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado (Peso crudo)"
+    },
+    {
+        "name": "Garbanzos hervidos",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 300 g (120 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 60 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6 R"
+            },
+            {
+                "weight_raw": "PESO 200 g (80 g)*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 100 g (40 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado (Peso crudo)"
+    },
+    {
+        "name": "Lentejas hervidas",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 300 g (120 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 60 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6 R"
+            },
+            {
+                "weight_raw": "PESO 200 g (80 g)*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 100 g (40 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado (Peso crudo)"
+    },
+    {
+        "name": "Guisantes hervidos",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 600 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 60 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6 R"
+            },
+            {
+                "weight_raw": "PESO 400 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 200 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ],
+        "notes": " *Peso cocido, congelado, crudo y en conserva"
+    },
+    {
+        "name": "Alubias hervidas",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 300 g (120 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 60 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6 R"
+            },
+            {
+                "weight_raw": "PESO 200 g (80 g)*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 100 g (40 g)*",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado (Peso crudo)"
+    },
+    {
+        "name": "Patatas hervidas",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 300 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 60 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6 R"
+            },
+            {
+                "weight_raw": "PESO 200 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 100 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ],
+        "notes": " *Peso cocido y crudo"
+    },
+    {
+        "name": "Patatas chips",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 30 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 15 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Patatas fritas",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 120 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 60 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ],
+        "notes": " *Peso de una bolsa pequeña"
+    },
+    {
+        "name": "Bastoncitos de pan",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 15 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Pan de molde*",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 25 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 12 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,2 R"
+            }
+        ]
+    },
+    {
+        "name": "Krisprolls",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "Tostada pan blanco",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ],
+        "notes": " *Rebanada pequeña"
+    },
+    {
+        "name": "Biscote",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO RACIÓN HIDRATOS"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 40 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 10 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO RACIÓN HIDRATOS"
+            }
+        ]
+    },
+    {
+        "name": "Tortita arroz integral",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 6 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 5,2 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Cereales tipo Special K",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 45 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 30 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3 R"
+            },
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 15 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Cereales tipo Choco Crispies (arroz inflado chocolateado)",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 45 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 36 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3,6 R"
+            },
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 24 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,4 R"
+            },
+            {
+                "weight_raw": "PESO 15 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 12 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,2 R"
+            }
+        ]
+    },
+    {
+        "name": "Cereales tipo Chocos - Coco Pops",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 45 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 36 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3,6 R"
+            },
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 24 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,4 R"
+            },
+            {
+                "weight_raw": "PESO 15 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 12 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,2 R"
+            }
+        ]
+    },
+    {
+        "name": "Muesli",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 45 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 30 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3 R"
+            },
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 15 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Galletas tipo María",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "Galletas rellenas de chocolate",
+        "category": "Farináceos",
+        "data": [
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 25 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 16 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "Fresas",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 150 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            },
+            {
+                "weight_raw": "PESO 75 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Higos",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 80 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            },
+            {
+                "weight_raw": "PESO 40 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ],
+        "notes": " *Peso neto (sin piel)"
+    },
+    {
+        "name": "Kiwi",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 200 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 100 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 1 R"
+            }
+        ],
+        "notes": " *Peso neto (sin piel)"
+    },
+    {
+        "name": "Mandarina",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 200 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 100 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 1 R"
+            }
+        ],
+        "notes": " *Peso neto (sin piel)"
+    },
+    {
+        "name": "Manzana",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 200 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 150 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 15 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Melocotón",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 260 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 130 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ],
+        "notes": " *Peso neto (sin piel)"
+    },
+    {
+        "name": "Melón",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 400 gsin piel  560 gcon piel",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 200 gsin piel  280 gcon piel",
+                "carbs_raw": "HIDRATOS DE CARBONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Naranja",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 200 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 100 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ],
+        "notes": " *Peso neto (sin piel)"
+    },
+    {
+        "name": "Pera",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 200 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 100 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ],
+        "notes": " *Peso neto (sin piel)"
+    },
+    {
+        "name": "Piña",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 200 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 100 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ],
+        "notes": " *Peso neto (sin piel)"
+    },
+    {
+        "name": "Plátano",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 100 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 50 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 1 R"
+            }
+        ],
+        "notes": " *Peso neto (sin piel)"
+    },
+    {
+        "name": "Unknown",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 300 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 150 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Uva",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 100 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 50 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Macedonia",
+        "category": "Frutas",
+        "data": [
+            {
+                "weight_raw": "PESO 100 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 50 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Alcachofas Coliflor",
+        "category": "Verduras",
+        "data": [
+            {
+                "weight_raw": "PESO 300 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            },
+            {
+                "weight_raw": "PESO 300 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Ensalada verde Ensalada mixta",
+        "category": "Verduras",
+        "data": [
+            {
+                "weight_raw": "PESO 150 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            },
+            {
+                "weight_raw": "PESO 150 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Judía verde Tomate",
+        "category": "Verduras",
+        "data": [
+            {
+                "weight_raw": "PESO 300 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            },
+            {
+                "weight_raw": "PESO 200 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Nueces",
+        "category": "Fruta seca grasa",
+        "data": [
+            {
+                "weight_raw": "PESO 150 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Avellanas",
+        "category": "Fruta seca grasa",
+        "data": [
+            {
+                "weight_raw": "PESO 70 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Almendras",
+        "category": "Fruta seca grasa",
+        "data": [
+            {
+                "weight_raw": "PESO 75 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Aceitunas rellenas de anchoas",
+        "category": "Fruta seca grasa",
+        "data": [
+            {
+                "weight_raw": "PESO 50 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 0,025 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0 R"
+            }
+        ]
+    },
+    {
+        "name": "Quicos - Maíz frito",
+        "category": "Fruta seca grasa",
+        "data": [
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 30 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "Paella mixta",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 375 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 60 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6 R"
+            },
+            {
+                "weight_raw": "PESO 250 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 125 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            }
+        ],
+        "notes": " *Peso cocido"
+    },
+    {
+        "name": "Tortilla de patatas casera",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 200 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "2 R",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 100 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "1 R",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 500 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 50 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 5 R"
+            }
+        ]
+    },
+    {
+        "name": "Croquetas Empanadillas Calamares romana",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 120 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            },
+            {
+                "weight_raw": "PESO 80 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 90 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 19 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "Pizza de jamón y queso",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 400 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 100 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 10 R"
+            },
+            {
+                "weight_raw": "PESO 200 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 50 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 5 R"
+            },
+            {
+                "weight_raw": "PESO 100 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 25 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,5 R"
+            }
+        ],
+        "notes": " *Pizza comercial"
+    },
+    {
+        "name": "KetchupHamburguesa FAST FOOD",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 9 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 2 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,2 R"
+            },
+            {
+                "weight_raw": "PESO 254 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 45,4 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 4,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Canelones con Bechamel",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 250 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 27 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 2,5 R"
+            }
+        ],
+        "notes": " *3 unidades"
+    },
+    {
+        "name": "Raviolis cocidos",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 200 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 52 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 5 R"
+            }
+        ]
+    },
+    {
+        "name": "Sushi roll",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 35 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 9,8 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            },
+            {
+                "weight_raw": "PESO 40 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 11,2 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ],
+        "notes": " *Peso por pieza pequeña/grande"
+    },
+    {
+        "name": "Döner Kebab",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 350 g*",
+                "carbs_raw": "HIDRATOS DE CARB ONO 60 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 6 R"
+            }
+        ]
+    },
+    {
+        "name": "Durum Kebab*",
+        "category": "Platos elaborados",
+        "data": [
+            {
+                "weight_raw": "PESO 400 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            }
+        ],
+        "notes": " *”rollito” de masa fina"
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos regionales",
+        "data": [
+            {
+                "weight_raw": "PESO 280 ml",
+                "carbs_raw": "HIDRATOS DE CARBONO 26,2 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,6 R"
+            },
+            {
+                "weight_raw": "PESO 150 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 31,6 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3,2 R"
+            },
+            {
+                "weight_raw": "PESO 359 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 35,5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos regionales",
+        "data": [
+            {
+                "weight_raw": "PESO 350 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 32,9 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3,3 R"
+            },
+            {
+                "weight_raw": "PESO 330 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 35 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3,5 R"
+            },
+            {
+                "weight_raw": "PESO 72,5 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 30,8 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado"
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos regionales",
+        "data": [
+            {
+                "weight_raw": "PESO 30 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 16,2 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,6 R"
+            },
+            {
+                "weight_raw": "PESO 381 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 51 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 5,1 R"
+            },
+            {
+                "weight_raw": "PESO 48 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 26,8 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,7 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado"
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos regionales",
+        "data": [
+            {
+                "weight_raw": "PESO 167 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 26,48 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,6 R"
+            },
+            {
+                "weight_raw": "PESO 192 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 68,6 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6,9 R"
+            },
+            {
+                "weight_raw": "PESO 212 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 82,5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 8,2 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado"
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos regionales",
+        "data": [
+            {
+                "weight_raw": "PESO 307 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 40,5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 405 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 66,45 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6,6 R"
+            },
+            {
+                "weight_raw": "PESO 230 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 41,8 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 4,2 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado"
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos regionales",
+        "data": [
+            {
+                "weight_raw": "PESO 106 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 40,74 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 485 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 4 R"
+            },
+            {
+                "weight_raw": "PESO 490 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 73,3 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 7 ,3 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado"
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos regionales",
+        "data": [
+            {
+                "weight_raw": "PESO 369 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 66,5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 6,6 R"
+            }
+        ]
+    },
+    {
+        "name": "Gelatina",
+        "category": "Platos regionales",
+        "data": [
+            {
+                "weight_raw": "PESO 90 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 13,7 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,4 R"
+            }
+        ]
+    },
+    {
+        "name": "Copa chocolate y nata",
+        "category": "Platos regionales",
+        "data": [
+            {
+                "weight_raw": "PESO 115 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "Cruasán",
+        "category": "Dulces y postres",
+        "data": [
+            {
+                "weight_raw": "PESO 61 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 35 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3,5 R"
+            }
+        ]
+    },
+    {
+        "name": "a d a m i a s n Et u n o D",
+        "category": "Dulces y postres",
+        "data": [
+            {
+                "weight_raw": "PESO 76 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 30 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3 R"
+            },
+            {
+                "weight_raw": "PESO 58 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 25 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Helado vainilla e t a l o c o h C  e d  l e t s a Pa n e l a d g a M",
+        "category": "Dulces y postres",
+        "data": [
+            {
+                "weight_raw": "PESO 160 ml",
+                "carbs_raw": "HIDRATOS DE CARB ONO 35 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3,5 R"
+            },
+            {
+                "weight_raw": "PESO 105 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 45 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 4,5 R"
+            },
+            {
+                "weight_raw": "PESO 50 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 20 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "Tarta de Santiago Tarta de manzana",
+        "category": "Dulces y postres",
+        "data": [
+            {
+                "weight_raw": "PESO 75 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 35 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3,5 R"
+            },
+            {
+                "weight_raw": "PESO 107 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 40 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 4 R"
+            }
+        ]
+    },
+    {
+        "name": "Chocolate con leche",
+        "category": "Dulces y postres",
+        "data": [
+            {
+                "weight_raw": "PESO 20 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Mermelada",
+        "category": "Dulces y postres",
+        "data": [
+            {
+                "weight_raw": "PESO 15 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 0,9 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,1 R"
+            },
+            {
+                "weight_raw": "PESO 15 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10,2 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,2 R"
+            }
+        ]
+    },
+    {
+        "name": "Cerveza con y sin alcohol",
+        "category": "Dulces y postres",
+        "data": [
+            {
+                "weight_raw": "PESO 333 ml",
+                "carbs_raw": "HIDRATOS DE CARB ONO 15  g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Vino tintoCava brut",
+        "category": "Bebidas alcohólicas",
+        "data": [
+            {
+                "weight_raw": "PESO 100 ml",
+                "carbs_raw": "HIDRATOS DE CARBONO 1,5 g",
+                "rations_raw": "RACIÓN HIDRATOS"
+            }
+        ]
+    },
+    {
+        "name": "DE CARBONO 0,15 R",
+        "category": "Bebidas alcohólicas",
+        "data": [
+            {
+                "weight_raw": "PESO 100 ml",
+                "carbs_raw": "HIDRATOS DE CARBONO 0,2 g",
+                "rations_raw": "RACIÓN HIDRATOS"
+            }
+        ]
+    },
+    {
+        "name": "Coñac s a t u r f  e d  r o c i Lo l l i j a r a C",
+        "category": "Bebidas alcohólicas",
+        "data": [
+            {
+                "weight_raw": "PESO 75 ml",
+                "carbs_raw": "HIDRATOS DE CARB ONO 0 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 0 R"
+            },
+            {
+                "weight_raw": "PESO 30 ml",
+                "carbs_raw": "HIDRATOS DE CARBONO 10,5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            },
+            {
+                "weight_raw": "PESO 70 ml",
+                "carbs_raw": "HIDRATOS DE CARBONO 0 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0 R"
+            }
+        ]
+    },
+    {
+        "name": "Queso fresco natural Leche semidesnatada",
+        "category": "Bebidas alcohólicas",
+        "data": [
+            {
+                "weight_raw": "PESO 150 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Quesito en porciones",
+        "category": "Bebidas alcohólicas",
+        "data": [
+            {
+                "weight_raw": "PESO 31 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 1,7 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,2 R"
+            },
+            {
+                "weight_raw": "PESO 200 ml",
+                "carbs_raw": "HIDRATOS DE CARBONO 9,2 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Queso en lonchasQueso manchego semi",
+        "category": "Lácteos",
+        "data": [
+            {
+                "weight_raw": "PESO 58 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 2,2 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,2 R"
+            },
+            {
+                "weight_raw": "PESO 54 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 0,8 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,08 R"
+            }
+        ]
+    },
+    {
+        "name": "Flan de huevo Natillas",
+        "category": "Lácteos",
+        "data": [
+            {
+                "weight_raw": "PESO 125 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 25 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 125 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 25 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Lácteos",
+        "data": [
+            {
+                "weight_raw": "PESO 125 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 15 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,5 R"
+            },
+            {
+                "weight_raw": "PESO 125 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 15 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,5 R"
+            },
+            {
+                "weight_raw": "PESO 125 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Yogur desnatado",
+        "category": "Lácteos",
+        "data": [
+            {
+                "weight_raw": "PESO 125 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 5,5 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,5 R"
+            },
+            {
+                "weight_raw": "PESO 125 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10,8 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARB ONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Actimel Petit suise",
+        "category": "Lácteos",
+        "data": [
+            {
+                "weight_raw": "PESO 55 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            },
+            {
+                "weight_raw": "PESO 94 ml",
+                "carbs_raw": "HIDRATOS DE CARB ONO 10 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ]
+    },
+    {
+        "name": "Seitán  l a t e g e v  a s e u g r u b m a Hu f o T",
+        "category": "Productos vegetarianos",
+        "data": [
+            {
+                "weight_raw": "PESO 100 g",
+                "carbs_raw": "HIDRATOS DE CARB ONO 2,8 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,3 R"
+            },
+            {
+                "weight_raw": "PESO 75 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 11,6 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,1 R"
+            },
+            {
+                "weight_raw": "PESO 95 g",
+                "carbs_raw": "HIDRATOS DE CARBONO 3,1g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 0,3 R"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 420 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 7 ,7 g"
+            }
+        ]
+    },
+    {
+        "name": "RACIÓN HIDR. DE CARBONO 0,5-1 R",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 15 g*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            },
+            {
+                "weight_raw": "PESO 301 g*",
+                "carbs_raw": "HIDRATOS DE CARBONO 15 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 150 ml*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            },
+            {
+                "weight_raw": "PESO 250 ml*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3 R"
+            },
+            {
+                "weight_raw": "PESO 300 ml*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 4 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado"
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 259 g*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado para una persona"
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 346 g*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 60 g*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,3 R"
+            },
+            {
+                "weight_raw": "PESO 100 g*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,2 R"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 200 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,6 R"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 180 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,6 R"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 100 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 1,5 R"
+            }
+        ]
+    },
+    {
+        "name": "Agua 90 ml",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 110 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2 R"
+            }
+        ]
+    },
+    {
+        "name": "x5",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 120 g",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3 R"
+            }
+        ]
+    },
+    {
+        "name": "Unknown",
+        "category": "Platos pediatría",
+        "data": [
+            {
+                "weight_raw": "PESO 75 g*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,2 R"
+            },
+            {
+                "weight_raw": "PESO 90 g*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 3,1 R"
+            },
+            {
+                "weight_raw": "PESO 155 g*",
+                "rations_raw": "RACIÓN HIDRATOS DE CARBONO 2,6 R"
+            }
+        ],
+        "notes": " *Peso cocido aproximado"
+    }
+]

@@ -1,0 +1,2189 @@
+[
+    {
+        "name": {
+            "es": "Esta guía práctica",
+            "en": "Esta Guía Práctica"
+        },
+        "category": {
+            "es": "Unknown",
+            "en": "Unknown"
+        },
+        "portions": [
+            {
+                "weight": 150.0,
+                "carbs": 5.0,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Arroz blanco hervido",
+            "en": "Arroz Blanco Hervido"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 240.0,
+                "carbs": 60.0,
+                "rations": 6.0
+            },
+            {
+                "weight": 160.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 80.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Arroz “a la cubana”",
+            "en": "Arroz “A La Cubana”"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 400.0,
+                "carbs": 70.0,
+                "rations": 7.0
+            },
+            {
+                "weight": 300.0,
+                "carbs": 47.5,
+                "rations": 5.0
+            },
+            {
+                "weight": 190.0,
+                "carbs": 25.0,
+                "rations": 2.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Macarrones con salsa de tomate",
+            "en": "Macarrones Con Salsa De Tomate"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 300.0,
+                "carbs": 60.0,
+                "rations": 6.0
+            },
+            {
+                "weight": 200.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Espaguetis hervidos",
+            "en": "Espaguetis Hervidos"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 400.0,
+                "carbs": 70.0,
+                "rations": 7.0
+            },
+            {
+                "weight": 275.0,
+                "carbs": 47.5,
+                "rations": 5.0
+            },
+            {
+                "weight": 150.0,
+                "carbs": 25.0,
+                "rations": 2.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Espaguetis con salsa de tomate",
+            "en": "Espaguetis Con Salsa De Tomate"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 300.0,
+                "carbs": 60.0,
+                "rations": 6.0
+            },
+            {
+                "weight": 200.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Garbanzos hervidos",
+            "en": "Garbanzos Hervidos"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 400.0,
+                "carbs": 70.0,
+                "rations": 7.0
+            },
+            {
+                "weight": 275.0,
+                "carbs": 47.5,
+                "rations": 5.0
+            },
+            {
+                "weight": 150.0,
+                "carbs": 25.0,
+                "rations": 2.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Lentejas hervidas",
+            "en": "Lentejas Hervidas"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 300.0,
+                "carbs": 60.0,
+                "rations": 6.0
+            },
+            {
+                "weight": 200.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Guisantes hervidos",
+            "en": "Guisantes Hervidos"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 300.0,
+                "carbs": 60.0,
+                "rations": 6.0
+            },
+            {
+                "weight": 200.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Alubias hervidas",
+            "en": "Alubias Hervidas"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 600.0,
+                "carbs": 60.0,
+                "rations": 6.0
+            },
+            {
+                "weight": 400.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 200.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Patatas hervidas",
+            "en": "Patatas Hervidas"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 300.0,
+                "carbs": 60.0,
+                "rations": 6.0
+            },
+            {
+                "weight": 200.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Patatas chips",
+            "en": "Patatas Chips"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 300.0,
+                "carbs": 60.0,
+                "rations": 6.0
+            },
+            {
+                "weight": 200.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Patatas fritas",
+            "en": "Patatas Fritas"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 30.0,
+                "carbs": 15.0,
+                "rations": 1.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Bastoncitos de pan",
+            "en": "Bastoncitos De Pan"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 120.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 60.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Pan de molde*",
+            "en": "Pan De Molde*"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 30.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 15.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Krisprolls",
+            "en": "Krisprolls"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 25.0,
+                "carbs": 12.0,
+                "rations": 1.2
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Tostada pan blanco",
+            "en": "Tostada Pan Blanco"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 30.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "DE CARBONO",
+            "en": "De Carbono"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 0,
+                "carbs": 0,
+                "rations": 0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Pan de pueblo",
+            "en": "Pan De Pueblo"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 40.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 10.0,
+                "carbs": 5.0,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "DE CARBONO",
+            "en": "De Carbono"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 0,
+                "carbs": 0,
+                "rations": 0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Cereales tipo Special K",
+            "en": "Cereales Tipo Special K"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 6.0,
+                "carbs": 5.2,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Vaso de 500 ml (14 cm altura)",
+            "en": "Vaso De 500 Ml (14 Cm Altura)"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 45.0,
+                "carbs": 30.0,
+                "rations": 3.0
+            },
+            {
+                "weight": 30.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 15.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Vaso de 500 ml (14 cm altura)",
+            "en": "Vaso De 500 Ml (14 Cm Altura)"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 45.0,
+                "carbs": 36.0,
+                "rations": 3.6
+            },
+            {
+                "weight": 30.0,
+                "carbs": 24.0,
+                "rations": 2.4
+            },
+            {
+                "weight": 15.0,
+                "carbs": 12.0,
+                "rations": 1.2
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Vaso de 500 ml (14 cm altura)",
+            "en": "Vaso De 500 Ml (14 Cm Altura)"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 45.0,
+                "carbs": 36.0,
+                "rations": 3.6
+            },
+            {
+                "weight": 30.0,
+                "carbs": 24.0,
+                "rations": 2.4
+            },
+            {
+                "weight": 15.0,
+                "carbs": 12.0,
+                "rations": 1.2
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Vaso de 500 ml (14 cm altura)",
+            "en": "Vaso De 500 Ml (14 Cm Altura)"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 45.0,
+                "carbs": 30.0,
+                "rations": 3.0
+            },
+            {
+                "weight": 30.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 15.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Galletas rellenas de chocolate",
+            "en": "Galletas Rellenas De Chocolate"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 30.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Milka Choco Biscuit",
+            "en": "Milka Choco Biscuit"
+        },
+        "category": {
+            "es": "Farináceos",
+            "en": "Starchy Foods"
+        },
+        "portions": [
+            {
+                "weight": 30.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 25.0,
+                "carbs": 16.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Higos",
+            "en": "Higos"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 150.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            },
+            {
+                "weight": 75.0,
+                "carbs": 5.0,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Kiwi",
+            "en": "Kiwi"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 80.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            },
+            {
+                "weight": 40.0,
+                "carbs": 5.0,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Mandarina",
+            "en": "Mandarina"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 200.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Manzana",
+            "en": "Manzana"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 200.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Melocotón",
+            "en": "Melocotón"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 200.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 150.0,
+                "carbs": 15.0,
+                "rations": 1.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Melón",
+            "en": "Melón"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 260.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 130.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Naranja",
+            "en": "Naranja"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 400.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 200.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Pera",
+            "en": "Pera"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 200.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Piña",
+            "en": "Piña"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 200.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Plátano",
+            "en": "Plátano"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 200.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 100.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Sandía",
+            "en": "Sandía"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 100.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 50.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            },
+            {
+                "weight": 300.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 150.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Macedonia",
+            "en": "Macedonia"
+        },
+        "category": {
+            "es": "Frutas",
+            "en": "Fruits"
+        },
+        "portions": [
+            {
+                "weight": 100.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 50.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Alcachofas",
+            "en": "Artichokes"
+        },
+        "category": {
+            "es": "Verduras",
+            "en": "Vegetables"
+        },
+        "portions": [
+            {
+                "weight": 100.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Coliflor",
+            "en": "Cauliflower"
+        },
+        "category": {
+            "es": "Verduras",
+            "en": "Vegetables"
+        },
+        "portions": [
+            {
+                "weight": 50.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Ensalada verde",
+            "en": "Green Salad"
+        },
+        "category": {
+            "es": "Verduras",
+            "en": "Vegetables"
+        },
+        "portions": [
+            {
+                "weight": 300.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Ensalada mixta",
+            "en": "Mixed Salad"
+        },
+        "category": {
+            "es": "Verduras",
+            "en": "Vegetables"
+        },
+        "portions": [
+            {
+                "weight": 300.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Judía verde",
+            "en": "Green Bean"
+        },
+        "category": {
+            "es": "Verduras",
+            "en": "Vegetables"
+        },
+        "portions": [
+            {
+                "weight": 150.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Tomate",
+            "en": "Tomato"
+        },
+        "category": {
+            "es": "Verduras",
+            "en": "Vegetables"
+        },
+        "portions": [
+            {
+                "weight": 150.0,
+                "carbs": 5.0,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Nueces",
+            "en": "Nueces"
+        },
+        "category": {
+            "es": "Fruta seca grasa",
+            "en": "Nuts and Healthy Fats"
+        },
+        "portions": [
+            {
+                "weight": 300.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            },
+            {
+                "weight": 200.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Avellanas",
+            "en": "Avellanas"
+        },
+        "category": {
+            "es": "Fruta seca grasa",
+            "en": "Nuts and Healthy Fats"
+        },
+        "portions": [
+            {
+                "weight": 150.0,
+                "carbs": 5.0,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Almendras",
+            "en": "Almendras"
+        },
+        "category": {
+            "es": "Fruta seca grasa",
+            "en": "Nuts and Healthy Fats"
+        },
+        "portions": [
+            {
+                "weight": 70.0,
+                "carbs": 5.0,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Aceitunas rellenas de anchoas",
+            "en": "Aceitunas Rellenas De Anchoas"
+        },
+        "category": {
+            "es": "Fruta seca grasa",
+            "en": "Nuts and Healthy Fats"
+        },
+        "portions": [
+            {
+                "weight": 75.0,
+                "carbs": 5.0,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Quicos - Maíz frito",
+            "en": "Quicos - Maíz Frito"
+        },
+        "category": {
+            "es": "Fruta seca grasa",
+            "en": "Nuts and Healthy Fats"
+        },
+        "portions": [
+            {
+                "weight": 50.0,
+                "carbs": 0.025,
+                "rations": 0.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Palomitas",
+            "en": "Palomitas"
+        },
+        "category": {
+            "es": "Fruta seca grasa",
+            "en": "Nuts and Healthy Fats"
+        },
+        "portions": [
+            {
+                "weight": 30.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 30.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Tortilla de patatas casera",
+            "en": "Tortilla De Patatas Casera"
+        },
+        "category": {
+            "es": "Platos elaborados",
+            "en": "Prepared Dishes"
+        },
+        "portions": [
+            {
+                "weight": 375.0,
+                "carbs": 60.0,
+                "rations": 6.0
+            },
+            {
+                "weight": 250.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 125.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "5 R",
+            "en": "5 R"
+        },
+        "category": {
+            "es": "Platos elaborados",
+            "en": "Prepared Dishes"
+        },
+        "portions": [
+            {
+                "weight": 500.0,
+                "carbs": 50.0,
+                "rations": 5.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Pizza de jamón y queso",
+            "en": "Pizza De Jamón Y Queso"
+        },
+        "category": {
+            "es": "Platos elaborados",
+            "en": "Prepared Dishes"
+        },
+        "portions": [
+            {
+                "weight": 120.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            },
+            {
+                "weight": 80.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 90.0,
+                "carbs": 19.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Ketchup",
+            "en": "Ketchup"
+        },
+        "category": {
+            "es": "Platos elaborados",
+            "en": "Prepared Dishes"
+        },
+        "portions": [
+            {
+                "weight": 400.0,
+                "carbs": 100.0,
+                "rations": 10.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Hamburguesa",
+            "en": "Hamburger"
+        },
+        "category": {
+            "es": "Platos elaborados",
+            "en": "Prepared Dishes"
+        },
+        "portions": [
+            {
+                "weight": 200.0,
+                "carbs": 50.0,
+                "rations": 5.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Canelones con Bechamel",
+            "en": "Canelones Con Bechamel"
+        },
+        "category": {
+            "es": "Platos elaborados",
+            "en": "Prepared Dishes"
+        },
+        "portions": [
+            {
+                "weight": 9.0,
+                "carbs": 2.0,
+                "rations": 0.2
+            },
+            {
+                "weight": 254.0,
+                "carbs": 45.4,
+                "rations": 4.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Raviolis cocidos",
+            "en": "Raviolis Cocidos"
+        },
+        "category": {
+            "es": "Platos elaborados",
+            "en": "Prepared Dishes"
+        },
+        "portions": [
+            {
+                "weight": 250.0,
+                "carbs": 27.0,
+                "rations": 2.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Sushi roll",
+            "en": "Sushi Roll"
+        },
+        "category": {
+            "es": "Platos elaborados",
+            "en": "Prepared Dishes"
+        },
+        "portions": [
+            {
+                "weight": 200.0,
+                "carbs": 52.0,
+                "rations": 5.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Döner Kebab",
+            "en": "Döner Kebab"
+        },
+        "category": {
+            "es": "Platos elaborados",
+            "en": "Prepared Dishes"
+        },
+        "portions": [
+            {
+                "weight": 35.0,
+                "carbs": 9.8,
+                "rations": 1.0
+            },
+            {
+                "weight": 40.0,
+                "carbs": 11.2,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "(1 Döner = 120 g de pan grueso pequeño )",
+            "en": "(1 Döner = 120 G De Pan Grueso Pequeño )"
+        },
+        "category": {
+            "es": "Platos elaborados",
+            "en": "Prepared Dishes"
+        },
+        "portions": [
+            {
+                "weight": 350.0,
+                "carbs": 60.0,
+                "rations": 6.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Salmorejo",
+            "en": "Salmorejo"
+        },
+        "category": {
+            "es": "Platos regionales",
+            "en": "Regional Dishes"
+        },
+        "portions": [
+            {
+                "weight": 400.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 280.0,
+                "carbs": 26.2,
+                "rations": 2.6
+            },
+            {
+                "weight": 150.0,
+                "carbs": 31.6,
+                "rations": 3.2
+            },
+            {
+                "weight": 359.0,
+                "carbs": 35.5,
+                "rations": 3.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Sancocho Quesada pasiegaBorrida de ratjada",
+            "en": "Sancocho Quesada Pasiegaborrida De Ratjada"
+        },
+        "category": {
+            "es": "Platos regionales",
+            "en": "Regional Dishes"
+        },
+        "portions": [
+            {
+                "weight": 350.0,
+                "carbs": 32.9,
+                "rations": 3.3
+            },
+            {
+                "weight": 330.0,
+                "carbs": 35.0,
+                "rations": 3.5
+            },
+            {
+                "weight": 72.5,
+                "carbs": 30.8,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Morteruelo SobadillosCorbatas de Unquera",
+            "en": "Morteruelo Sobadilloscorbatas De Unquera"
+        },
+        "category": {
+            "es": "Platos regionales",
+            "en": "Regional Dishes"
+        },
+        "portions": [
+            {
+                "weight": 30.0,
+                "carbs": 16.2,
+                "rations": 1.6
+            },
+            {
+                "weight": 381.0,
+                "carbs": 51.0,
+                "rations": 5.1
+            },
+            {
+                "weight": 48.0,
+                "carbs": 26.8,
+                "rations": 2.7
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Migas extremeñas Empanada gallegaCrema catalana",
+            "en": "Migas Extremeñas Empanada Gallegacrema Catalana"
+        },
+        "category": {
+            "es": "Platos regionales",
+            "en": "Regional Dishes"
+        },
+        "portions": [
+            {
+                "weight": 167.0,
+                "carbs": 26.48,
+                "rations": 2.6
+            },
+            {
+                "weight": 192.0,
+                "carbs": 68.6,
+                "rations": 6.9
+            },
+            {
+                "weight": 212.0,
+                "carbs": 82.5,
+                "rations": 8.2
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Cocido madrileño MichironesPatatas a la riojana",
+            "en": "Cocido Madrileño Michironespatatas A La Riojana"
+        },
+        "category": {
+            "es": "Platos regionales",
+            "en": "Regional Dishes"
+        },
+        "portions": [
+            {
+                "weight": 307.0,
+                "carbs": 40.5,
+                "rations": 4.0
+            },
+            {
+                "weight": 405.0,
+                "carbs": 66.45,
+                "rations": 6.6
+            },
+            {
+                "weight": 230.0,
+                "carbs": 41.8,
+                "rations": 4.2
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Marmitako FideuáTxantxigorri",
+            "en": "Marmitako Fideuátxantxigorri"
+        },
+        "category": {
+            "es": "Platos regionales",
+            "en": "Regional Dishes"
+        },
+        "portions": [
+            {
+                "weight": 106.0,
+                "carbs": 40.74,
+                "rations": 4.0
+            },
+            {
+                "weight": 485.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            },
+            {
+                "weight": 490.0,
+                "carbs": 73.3,
+                "rations": 7.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Couscous",
+            "en": "Couscous"
+        },
+        "category": {
+            "es": "Platos regionales",
+            "en": "Regional Dishes"
+        },
+        "portions": [
+            {
+                "weight": 369.0,
+                "carbs": 66.5,
+                "rations": 6.6
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Copa chocolate y nata",
+            "en": "Copa Chocolate Y Nata"
+        },
+        "category": {
+            "es": "Platos regionales",
+            "en": "Regional Dishes"
+        },
+        "portions": [
+            {
+                "weight": 90.0,
+                "carbs": 13.7,
+                "rations": 1.4
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Cruasán",
+            "en": "Cruasán"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": [
+            {
+                "weight": 115.0,
+                "carbs": 20.0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Ensaimada",
+            "en": "Ensaimada"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": [
+            {
+                "weight": 61.0,
+                "carbs": 35.0,
+                "rations": 3.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Donut",
+            "en": "Donut"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": []
+    },
+    {
+        "name": {
+            "es": "Helado de vainilla",
+            "en": "Vanilla Ice Cream"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": [
+            {
+                "weight": 76.0,
+                "carbs": 30.0,
+                "rations": 3.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Pastel de Chocolate",
+            "en": "Chocolate Cake"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": [
+            {
+                "weight": 58.0,
+                "carbs": 25.0,
+                "rations": 2.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Magdalena",
+            "en": "Madeleine"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": []
+    },
+    {
+        "name": {
+            "es": "Tarta de Santiago",
+            "en": "Santiago Cake"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": [
+            {
+                "weight": 160.0,
+                "carbs": 35.0,
+                "rations": 3.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Tarta de manzana",
+            "en": "Apple Pie"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": [
+            {
+                "weight": 105.0,
+                "carbs": 45.0,
+                "rations": 4.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Chocolate con leche",
+            "en": "Chocolate Con Leche"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": [
+            {
+                "weight": 75.0,
+                "carbs": 35.0,
+                "rations": 3.5
+            },
+            {
+                "weight": 107.0,
+                "carbs": 40.0,
+                "rations": 4.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Mermelada",
+            "en": "Mermelada"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": [
+            {
+                "weight": 20.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Con edulcorante",
+            "en": "Con Edulcorante"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": [
+            {
+                "weight": 15.0,
+                "carbs": 0.9,
+                "rations": 0.1
+            },
+            {
+                "weight": 15.0,
+                "carbs": 10.2,
+                "rations": 1.2
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "El consumo",
+            "en": "El Consumo"
+        },
+        "category": {
+            "es": "Dulces y postres",
+            "en": "Sweets and Desserts"
+        },
+        "portions": [
+            {
+                "weight": 333.0,
+                "carbs": 15.0,
+                "rations": 1.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Queso fresco natural",
+            "en": "Fresh Cheese"
+        },
+        "category": {
+            "es": "Bebidas alcohólicas",
+            "en": "Alcoholic Beverages"
+        },
+        "portions": [
+            {
+                "weight": 75.0,
+                "carbs": 0.0,
+                "rations": 0.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Leche semidesnatada",
+            "en": "Semi-skimmed Milk"
+        },
+        "category": {
+            "es": "Bebidas alcohólicas",
+            "en": "Alcoholic Beverages"
+        },
+        "portions": [
+            {
+                "weight": 30.0,
+                "carbs": 10.5,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Quesito en porciones",
+            "en": "Quesito En Porciones"
+        },
+        "category": {
+            "es": "Bebidas alcohólicas",
+            "en": "Alcoholic Beverages"
+        },
+        "portions": [
+            {
+                "weight": 150.0,
+                "carbs": 5.0,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Queso en lonchas",
+            "en": "Sliced Cheese"
+        },
+        "category": {
+            "es": "Lácteos",
+            "en": "Dairy"
+        },
+        "portions": [
+            {
+                "weight": 31.0,
+                "carbs": 1.7,
+                "rations": 0.2
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Queso manchego semi",
+            "en": "Semi-cured Manchego Cheese"
+        },
+        "category": {
+            "es": "Lácteos",
+            "en": "Dairy"
+        },
+        "portions": [
+            {
+                "weight": 200.0,
+                "carbs": 9.2,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Flan de huevo",
+            "en": "Egg Flan"
+        },
+        "category": {
+            "es": "Lácteos",
+            "en": "Dairy"
+        },
+        "portions": [
+            {
+                "weight": 58.0,
+                "carbs": 2.2,
+                "rations": 0.2
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Natillas",
+            "en": "Custard"
+        },
+        "category": {
+            "es": "Lácteos",
+            "en": "Dairy"
+        },
+        "portions": [
+            {
+                "weight": 54.0,
+                "carbs": 0.8,
+                "rations": 0.08
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Yogur natural entero",
+            "en": "Yogur Natural Entero"
+        },
+        "category": {
+            "es": "Lácteos",
+            "en": "Dairy"
+        },
+        "portions": [
+            {
+                "weight": 125.0,
+                "carbs": 25.0,
+                "rations": 2.0
+            },
+            {
+                "weight": 125.0,
+                "carbs": 25.0,
+                "rations": 2.5
+            },
+            {
+                "weight": 125.0,
+                "carbs": 15.0,
+                "rations": 1.5
+            },
+            {
+                "weight": 125.0,
+                "carbs": 15.0,
+                "rations": 1.5
+            },
+            {
+                "weight": 125.0,
+                "carbs": 5.0,
+                "rations": 0.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Natural Con frutas",
+            "en": "Natural Con Frutas"
+        },
+        "category": {
+            "es": "Lácteos",
+            "en": "Dairy"
+        },
+        "portions": [
+            {
+                "weight": 125.0,
+                "carbs": 5.5,
+                "rations": 0.5
+            },
+            {
+                "weight": 125.0,
+                "carbs": 10.8,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Seitán",
+            "en": "Seitan"
+        },
+        "category": {
+            "es": "Productos vegetarianos",
+            "en": "Vegetarian Products"
+        },
+        "portions": [
+            {
+                "weight": 55.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Hamburguesa vegetal",
+            "en": "Veggie Burger"
+        },
+        "category": {
+            "es": "Productos vegetarianos",
+            "en": "Vegetarian Products"
+        },
+        "portions": [
+            {
+                "weight": 94.0,
+                "carbs": 10.0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Tofu",
+            "en": "Tofu"
+        },
+        "category": {
+            "es": "Productos vegetarianos",
+            "en": "Vegetarian Products"
+        },
+        "portions": []
+    },
+    {
+        "name": {
+            "es": "Puedes comer",
+            "en": "Puedes Comer"
+        },
+        "category": {
+            "es": "Productos vegetarianos",
+            "en": "Vegetarian Products"
+        },
+        "portions": [
+            {
+                "weight": 100.0,
+                "carbs": 2.8,
+                "rations": 0.3
+            },
+            {
+                "weight": 75.0,
+                "carbs": 11.6,
+                "rations": 1.1
+            },
+            {
+                "weight": 95.0,
+                "carbs": 3.1,
+                "rations": 0.3
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Crema de calabacín",
+            "en": "Crema De Calabacín"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 15.0,
+                "carbs": 0,
+                "rations": 1.0
+            },
+            {
+                "weight": 301.0,
+                "carbs": 15.0,
+                "rations": 1.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Sopa de estrellas",
+            "en": "Sopa De Estrellas"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 150.0,
+                "carbs": 0,
+                "rations": 2.0
+            },
+            {
+                "weight": 250.0,
+                "carbs": 0,
+                "rations": 3.0
+            },
+            {
+                "weight": 300.0,
+                "carbs": 0,
+                "rations": 4.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Papilla de verduras con pollo",
+            "en": "Papilla De Verduras Con Pollo"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 259.0,
+                "carbs": 0,
+                "rations": 1.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Papilla de verduras con pollo",
+            "en": "Papilla De Verduras Con Pollo"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 346.0,
+                "carbs": 0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Varitas de pescado",
+            "en": "Varitas De Pescado"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 60.0,
+                "carbs": 0,
+                "rations": 1.3
+            },
+            {
+                "weight": 100.0,
+                "carbs": 0,
+                "rations": 2.2
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Papilla de frutas",
+            "en": "Papilla De Frutas"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 200.0,
+                "carbs": 0,
+                "rations": 2.6
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Papilla de pera con yogur",
+            "en": "Papilla De Pera Con Yogur"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 180.0,
+                "carbs": 0,
+                "rations": 1.6
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Papilla 5 cereales",
+            "en": "Papilla 5 Cereales"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 100.0,
+                "carbs": 0,
+                "rations": 1.5
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "x4",
+            "en": "X4"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 110.0,
+                "carbs": 0,
+                "rations": 2.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Papilla 5 cereales",
+            "en": "Papilla 5 Cereales"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 120.0,
+                "carbs": 0,
+                "rations": 3.0
+            }
+        ]
+    },
+    {
+        "name": {
+            "es": "Crep Crep de chocolate Crep de jamón y queso",
+            "en": "Crep Crep De Chocolate Crep De Jamón Y Queso"
+        },
+        "category": {
+            "es": "Platos pediatría",
+            "en": "Pediatric Dishes"
+        },
+        "portions": [
+            {
+                "weight": 75.0,
+                "carbs": 0,
+                "rations": 2.2
+            },
+            {
+                "weight": 90.0,
+                "carbs": 0,
+                "rations": 3.1
+            },
+            {
+                "weight": 155.0,
+                "carbs": 0,
+                "rations": 2.6
+            }
+        ]
+    }
+]
