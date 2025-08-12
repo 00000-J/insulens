@@ -65,16 +65,18 @@ Start with the Settings screen to establish basic user profile and app configura
   - **Insulin Settings Section**:
     - `NCard` (title: "Insulin Configuration"):
       - `NSpace` (vertical, size: "medium"):
-        - `NSelect` (placeholder: "Insulin Sensitivity", options: [
-          {value: "high", label: "High Sensitivity"},
-          {value: "medium", label: "Medium Sensitivity"},
-          {value: "low", label: "Low Sensitivity"}
-        ])
         - `NSelect` (placeholder: "Carb Ratio", options: [
-          {value: "1:10", label: "1:10 (1 unit per 10g carbs)"},
-          {value: "1:15", label: "1:15 (1 unit per 15g carbs)"},
-          {value: "1:20", label: "1:20 (1 unit per 20g carbs)"},
-          {value: "custom", label: "Custom Ratio"}
+          {value: "1:10", label: "1:10"},
+          {value: "1:11", label: "1:11"},
+          {value: "1:12", label: "1:12"},
+          {value: "1:13", label: "1:13"},
+          {value: "1:14", label: "1:14"},
+          {value: "1:15", label: "1:15"},
+          {value: "1:16", label: "1:16"},
+          {value: "1:17", label: "1:17"},
+          {value: "1:18", label: "1:18"},
+          {value: "1:19", label: "1:19"},
+          {value: "1:20", label: "1:20"}
         ])
   - **Preferences Section**:
     - `NCard` (title: "App Preferences"):

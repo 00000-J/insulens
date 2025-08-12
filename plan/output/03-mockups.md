@@ -355,24 +355,26 @@
 ┌─────────────────────────────────┐
 │ ← Back    Settings              │
 ├─────────────────────────────────┤
-│                                 │
-│ Profile                         │
-│ ┌─────────────────────────────┐ │
+│
+│ Insulin Settings                │
+│ ┌─────────────────────────────┐ │ 
+│ │ Ratio: [1:10 ▼]            
+│ └─────────────────────────────┘ 
+│  Insulin-to-Carbohydrate Ratio (ICR) — the number of grams of carbohydrate │  covered by one unit of bolus insulin.
+│                                 
+│ Profile                         
+│ ┌─────────────────────────────┐ 
 │ │ Name: [Diana Shaw        
 │ │ Age:  [36               
 │ │ Weight: [50kg           
 │ └─────────────────────────────┘ │
-│                                 │
-│ Insulin Settings                │
-│ ┌─────────────────────────────┐ │
-│ │ Sensitivity: [Normal ▼]    
-│ │ Ratio: [1:10 ▼]            
-│ └─────────────────────────────┘ │
-│                                 │
+│                                 
 │ Preferences                     │
 │ ┌─────────────────────────────┐ │
 │ │ Units: [Metric ▼]          
-│ │ Language: [English ▼]      
+│ │ Language: [English ▼]      │
+│ │ Dark Mode: [Off / On]
+│ │ Sound: [Off / On]       │
 │ └─────────────────────────────┘ │
 │                                 │
 │                                 │
