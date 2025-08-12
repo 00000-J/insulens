@@ -6,8 +6,7 @@ import {
   NSpace,
   NCard,
   NInput,
-  NSelect,
-  NButton
+  NSelect
 } from 'naive-ui'
 
 const router = useRouter()
@@ -55,11 +54,6 @@ const languageOptions = [
 function goBack() {
   router.back()
 }
-
-function exportData() {
-  // TODO: implement export logic
-  console.log('Export user data', { profile, insulin, preferences })
-}
 </script>
 
 <template>
@@ -99,10 +93,6 @@ function exportData() {
             :options="languageOptions"
           />
         </n-space>
-      </n-card>
-
-      <n-card>
-        <n-button type="primary" @click="exportData">📤 Export Data</n-button>
       </n-card>
     </n-space>
   </div>

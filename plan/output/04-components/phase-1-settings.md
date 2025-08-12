@@ -88,9 +88,6 @@ Start with the Settings screen to establish basic user profile and app configura
           {value: "es", label: "Spanish"},
           {value: "fr", label: "French"}
         ])
-  - **Data Management**:
-    - `NCard`:
-      - `NButton` (type: "primary", text: "📤 Export Data", onClick: export user data)
 
 ## Data Storage
 Store settings in local storage or app state:
