@@ -1,23 +1,14 @@
 <script setup lang="ts">
-import { useRouter } from 'vue-router'
-import { NPageHeader, NCard, NText } from 'naive-ui'
+import { NCard, NText } from 'naive-ui'
 
 const { title, description } = defineProps<{
   title: string
   description?: string
 }>()
-
-const router = useRouter()
-
-function goBack() {
-  router.back()
-}
 </script>
 
 <template>
   <div class="placeholder-wrapper">
-    <n-page-header :title="title" :on-back="goBack" />
-    
     <div class="content">
       <n-card>
         <n-text tag="h3" style="margin-bottom: 1rem; display: block;">

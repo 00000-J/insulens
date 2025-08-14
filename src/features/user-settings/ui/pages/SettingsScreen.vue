@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, watch } from 'vue'
-import { useRouter } from 'vue-router'
 import { Preferences } from '@capacitor/preferences'
 import {
-  NPageHeader,
   NSpace,
   NCard,
   NInput,
@@ -12,8 +10,6 @@ import {
   NSwitch
 } from 'naive-ui'
 import { useThemeStore } from '../../../../app/stores/theme'
-
-const router = useRouter()
 
 const profile = ref({
   name: '',
@@ -108,15 +104,11 @@ watch(
   { immediate: true }
 )
 
-function goBack() {
-  router.back()
-}
+
 </script>
 
 <template>
   <div class="settings-wrapper">
-    <n-page-header title="Settings" :on-back="goBack" />
-
     <n-space vertical size="large">
       <!-- Insulin Settings first -->
       <n-card title="ICR">

@@ -2,6 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import type { RouteRecordRaw } from 'vue-router'
 
 // Lazy-load screens for better performance
+const HomeScreen = () => import('../features/carb-counter/ui/pages/HomeScreen.vue')
+const PhotoAnalysisScreen = () => import('../features/carb-counter/ui/pages/PhotoAnalysisScreen.vue')
+const MealAnalysisResultsScreen = () => import('../features/carb-counter/ui/pages/MealAnalysisResultsScreen.vue')
 const SettingsScreen = () => import('../features/user-settings/ui/pages/SettingsScreen.vue')
 const MealRecommendationsScreen = () => import('../features/meal-recommendations/ui/pages/MealRecommendationsScreen.vue')
 const PlaceholderScreen = () => import('../shared/ui/components/PlaceholderScreen.vue')
@@ -10,8 +13,15 @@ const routes: RouteRecordRaw[] = [
   
   {
     path: '/',
-    component: PlaceholderScreen,
-    props: { title: 'Home', description: 'Home screen' }
+    component: HomeScreen
+  },
+  {
+    path: '/photo-analysis',
+    component: PhotoAnalysisScreen
+  },
+  {
+    path: '/meal-analysis-results',
+    component: MealAnalysisResultsScreen
   },
   {
     path: '/settings',

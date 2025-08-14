@@ -1,0 +1,56 @@
+{
+  "chicken_salad": {
+    "dishName": "Grilled Chicken Salad",
+    "category": "Low Carb",
+    "weight": 200,
+    "carbohydrates": 8,
+    "baseInsulin": 0.7,
+    "icr": "1:12",
+    "strategy": {
+      "type": "standard",
+      "howTo": "Inject 100% 10–15 minutes before the meal.",
+      "upfrontPercentage": 100,
+      "extendedPercentage": 0,
+      "duration": 0,
+      "upfrontUnits": 0.7,
+      "extendedUnits": 0,
+      "reasoning": "Low carb meal with minimal impact on blood glucose. Standard bolus 15 minutes before eating is sufficient."
+    }
+  },
+  "pepperoni_pizza": {
+    "dishName": "Pepperoni Pizza",
+    "category": "Starchy Foods",
+    "weight": 110,
+    "carbohydrates": 28,
+    "baseInsulin": 2.3,
+    "icr": "1:12",
+    "strategy": {
+      "type": "combo",
+      "howTo": "Inject 60% 15 minutes pre‑meal; inject 40% 1.5 hours after first bite.",
+      "upfrontPercentage": 60,
+      "extendedPercentage": 40,
+      "duration": 2,
+      "upfrontUnits": 1.4,
+      "extendedUnits": 0.9,
+      "reasoning": "Pizza has fat/protein that slows digestion. This combo approach matches the initial carb spike from the crust and the delayed glucose release from fats and proteins."
+    }
+  },
+  "pasta_marinara": {
+    "dishName": "Pasta with Marinara Sauce",
+    "category": "Starchy Foods",
+    "weight": 180,
+    "carbohydrates": 45,
+    "baseInsulin": 3.8,
+    "icr": "1:12",
+    "strategy": {
+      "type": "extended",
+      "howTo": "Inject 30% 15 minutes pre‑meal; inject the remaining 70% split into two equal follow‑ups at 1 hour and 2 hours after first bite.",
+      "upfrontPercentage": 30,
+      "extendedPercentage": 70,
+      "duration": 3,
+      "upfrontUnits": 1.1,
+      "extendedUnits": 2.7,
+      "reasoning": "Pasta causes prolonged glucose elevation. Extended bolus helps match the slow carb absorption over 3 hours."
+    }
+  }
+}

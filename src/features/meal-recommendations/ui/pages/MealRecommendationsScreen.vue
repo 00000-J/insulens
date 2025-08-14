@@ -1,15 +1,11 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useRouter } from 'vue-router'
 import {
-  NPageHeader,
   NSpace,
   NButton,
   NInput,
   NText
 } from 'naive-ui'
-
-const router = useRouter()
 
 const selectedMeal = ref('')
 const additionalInfo = ref('')
@@ -21,9 +17,7 @@ const mealTypes = [
   { value: 'snack', label: 'Snack', emoji: '🍿' }
 ]
 
-function goBack() {
-  router.back()
-}
+
 
 function selectMeal(meal: string) {
   selectedMeal.value = meal
@@ -62,8 +56,6 @@ function isSelected(meal: string) {
 
 <template>
   <div class="meal-recommendations-wrapper">
-    <n-page-header title="Meal Recommendations" :on-back="goBack" />
-
     <div class="content">
       <n-space vertical size="large">
         <div>
