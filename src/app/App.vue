@@ -1,24 +1,26 @@
 <script setup lang="ts">
-import { computed, onMounted } from 'vue'
-import { darkTheme, NConfigProvider } from 'naive-ui'
-import { useThemeStore } from './stores/theme'
-import BottomNavigation from '../shared/ui/components/BottomNavigation.vue'
+import { computed, onMounted } from "vue";
+import { darkTheme, NConfigProvider, NMessageProvider } from "naive-ui";
+import { useThemeStore } from "./stores/theme";
+import BottomNavigation from "../shared/ui/components/BottomNavigation.vue";
 
-const themeStore = useThemeStore()
+const themeStore = useThemeStore();
 
 onMounted(() => {
-  themeStore.load()
-})
+  themeStore.load();
+});
 
-const currentTheme = computed(() => (themeStore.isDark ? darkTheme : null))
+const currentTheme = computed(() => (themeStore.isDark ? darkTheme : null));
 </script>
 
 <template>
   <n-config-provider :theme="currentTheme">
-    <div class="app-container">
-      <router-view />
-      <bottom-navigation />
-    </div>
+    <n-message-provider>
+      <div class="app-container">
+        <router-view />
+        <bottom-navigation />
+      </div>
+    </n-message-provider>
   </n-config-provider>
 </template>
 

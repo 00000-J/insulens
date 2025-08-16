@@ -1,32 +1,32 @@
-import { defineStore } from 'pinia'
-import { Preferences } from '@capacitor/preferences'
+import { defineStore } from "pinia";
+import { Preferences } from "@capacitor/preferences";
 
-const DARK_KEY = 'app_theme_dark'
+const DARK_KEY = "app_theme_dark";
 
-export const useThemeStore = defineStore('theme', {
+export const useThemeStore = defineStore("theme", {
   state: () => ({
-    isDark: false
+    isDark: false,
   }),
   actions: {
     updateDOM(isDark: boolean) {
-      if (typeof document !== 'undefined') {
-        document.documentElement.classList.toggle('dark', isDark)
+      if (typeof document !== "undefined") {
+        document.documentElement.classList.toggle("dark", isDark);
       }
     },
     async load() {
-      const { value } = await Preferences.get({ key: DARK_KEY })
+      const { value } = await Preferences.get({ key: DARK_KEY });
       if (value !== null) {
-        this.isDark = value === 'true'
+        this.isDark = value === "true";
       }
-      this.updateDOM(this.isDark)
+      this.updateDOM(this.isDark);
     },
     async set(val: boolean) {
-      this.isDark = val
-      await Preferences.set({ key: DARK_KEY, value: String(val) })
-      this.updateDOM(val)
+      this.isDark = val;
+      await Preferences.set({ key: DARK_KEY, value: String(val) });
+      this.updateDOM(val);
     },
     async toggle() {
-      await this.set(!this.isDark)
-    }
-  }
-})
+      await this.set(!this.isDark);
+    },
+  },
+});

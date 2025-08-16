@@ -1,8 +1,7 @@
 <script setup lang="ts">
-
-import { useRouter, useRoute } from 'vue-router'
-import { NSpace, NButton, NIcon } from 'naive-ui'
-import { 
+import { useRouter, useRoute } from "vue-router";
+import { NSpace, NButton, NIcon } from "naive-ui";
+import {
   HomeSharp,
   TimeSharp,
   SettingsSharp,
@@ -10,58 +9,52 @@ import {
   HomeOutline,
   TimeOutline,
   SettingsOutline,
-  PizzaOutline
-} from '@vicons/ionicons5'
+  PizzaOutline,
+} from "@vicons/ionicons5";
 
-const router = useRouter()
-const route = useRoute()
+const router = useRouter();
+const route = useRoute();
 
 const navItems = [
-  { 
-    path: '/', 
-    iconActive: HomeSharp, 
-    iconInactive: HomeOutline, 
-    label: 'Home' 
+  {
+    path: "/",
+    iconActive: HomeSharp,
+    iconInactive: HomeOutline,
+    label: "Home",
   },
-  { 
-    path: '/history', 
-    iconActive: TimeSharp, 
-    iconInactive: TimeOutline, 
-    label: 'History' 
+  {
+    path: "/history",
+    iconActive: TimeSharp,
+    iconInactive: TimeOutline,
+    label: "History",
   },
-      { 
-      path: '/recommend', 
-      iconActive: PizzaSharp, 
-      iconInactive: PizzaOutline, 
-      label: 'Recommend' 
-    },
-  { 
-    path: '/stats', 
-    iconActive: TimeSharp, 
-    iconInactive: TimeOutline, 
-    label: 'Stats' 
+  {
+    path: "/recommend",
+    iconActive: PizzaSharp,
+    iconInactive: PizzaOutline,
+    label: "Recommend",
   },
-  { 
-    path: '/settings', 
-    iconActive: SettingsSharp, 
-    iconInactive: SettingsOutline, 
-    label: 'Settings' 
-  }
-]
+  {
+    path: "/settings",
+    iconActive: SettingsSharp,
+    iconInactive: SettingsOutline,
+    label: "Settings",
+  },
+];
 
 function navigateTo(path: string) {
-  router.push(path)
+  router.push(path);
 }
 
 function isActive(path: string) {
   // Handle special case for home route
-  if (path === '/' && route.path === '/settings') {
-    return false
+  if (path === "/" && route.path === "/settings") {
+    return false;
   }
-  if (path === '/' && route.path === '/') {
-    return true
+  if (path === "/" && route.path === "/") {
+    return true;
   }
-  return route.path === path
+  return route.path === path;
 }
 </script>
 
@@ -78,7 +71,9 @@ function isActive(path: string) {
       >
         <div class="nav-item">
           <n-icon class="nav-icon" size="20">
-            <component :is="isActive(item.path) ? item.iconActive : item.iconInactive" />
+            <component
+              :is="isActive(item.path) ? item.iconActive : item.iconInactive"
+            />
           </n-icon>
           <span class="nav-label">{{ item.label }}</span>
         </div>
@@ -93,7 +88,13 @@ function isActive(path: string) {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--bg-color);
+  background: color-mix(
+    in srgb,
+    var(--card-bg-color) 90%,
+    transparent
+  ) !important;
+  backdrop-filter: blur(30px);
+
   border-top: 1px solid var(--border-color, #e0e0e0);
   padding: 0.5rem 1rem;
   z-index: 1000;
@@ -128,7 +129,10 @@ function isActive(path: string) {
 }
 
 .nav-active {
-  background-color: var(--primary-color-hover, rgba(24, 160, 88, 0.1)) !important;
+  background-color: var(
+    --primary-color-hover,
+    rgba(24, 160, 88, 0.1)
+  ) !important;
 }
 
 .nav-active .nav-label {

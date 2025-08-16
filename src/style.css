@@ -2,11 +2,41 @@
   color-scheme: light dark;
   --text-color: #213547;
   --bg-color: #efefef;
+  --card-bg-color: #fff;
+
+  /* --- Design System: Spacing --- */
+  --space-standard: 24px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 72px;
+  --space-10: 88px;
+  --space-11: 120px;
+
+  /* --- Design System: Typography --- */
+  --font-size-xs: 0.64rem; /* 10.24px */
+  --font-size-sm: 0.8rem; /* 12.8px */
+  --font-size-md: 1rem; /* 16px */
+  --font-size-lg: 1.64rem; /* 26.24px */
+  --font-size-xl: 3.2rem; /* 51.2px */
+  --font-size-xxl: 7.2rem; /* 115.2px */
+
+  /* --- Design System: Borders --- */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-full: 9999px;
 }
 
 :root.dark {
   --text-color: var(--bg-color);
-  --bg-color:var(--text-color);
+  --bg-color: var(--text-color);
+  --card-bg-color: #18181c;
 }
 
 body {
@@ -14,3 +44,179 @@ body {
   color: var(--text-color);
   background-color: var(--bg-color);
 }
+
+.n-card {
+  border-radius: var(--border-radius-lg);
+  margin-bottom: 24px;
+  background: color-mix(
+    in srgb,
+    var(--card-bg-color) 80%,
+    transparent
+  ) !important;
+  backdrop-filter: blur(20px);
+}
+.n-card-description {
+  padding-bottom: 24px;
+}
+.n-card-footer {
+  padding-top: 24px;
+  font-size: var(--font-size-xs);
+}
+
+.page-container {
+  padding: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+  min-height: calc(100vh - 80px);
+  position: relative;
+}
+
+.n-card-with-description > .n-card-header {
+  padding-bottom: 0 !important;
+}
+
+.text-stack-top,
+.text-stack-top {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.text-stack-top {
+  font-size: 1.2rem;
+}
+
+.text-stack-bottom,
+.text-stack-bottom {
+  text-align: center;
+  font-size: 0.7rem;
+  padding-bottom: 24px;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.page-container {
+  min-height: calc(100vh - 80px);
+  position: relative;
+}
+ .meal-analysis-screen::before, .photo-analysis-screen::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/images/temp/pizza-plate.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.99;
+  z-index: -1;
+}
+
+.home-screen {
+  .home-page-photo-button {
+    width: 100%;
+    height: calc(100vh - 80px - 2rem);
+  }
+}
+
+.photo-analysis-screen {
+  .container-buttons,
+  .meal-type-buttons {
+    display: flex;
+    width: 100%;
+  }
+
+  .container-button,
+  .meal-type-button {
+    flex: 1;
+    border-radius: 6px !important;
+  }
+
+  .weight-slider {
+    margin: 0.5rem 0;
+  }
+}
+
+.meal-history-screen {
+  .trend-chart-section .chart-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 120px;
+  }
+
+  .trend-chart-section .chart-point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .trend-chart-section .n-card__content,
+  .trend-chart-section .n-card__footer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .trend-chart-section .filters-section {
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+.meal-feedback-screen{
+  .slider-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+  }
+  
+  .slider-label {
+    text-align: center;
+    flex: 1;
+    transition: all 0.2s ease;
+    opacity: 0.6;
+  }
+  
+  .slider-label.active {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
+  .slider-emoji {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .slider-text {
+    font-size: 0.75rem;
+    line-height: 1.2;
+    white-space: pre-line;
+    color: var(--text-color-2);
+    font-weight: 500;
+  }
+  
+  .slider-label.active .slider-text {
+    color: var(--text-color);
+    font-weight: 600;
+  }
+  
+  .glycemic-slider {
+    margin: 1rem 0;
+  }
+  }

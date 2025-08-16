@@ -1,0 +1,46 @@
+{
+  "pepperoni_pizza": {
+    "dishName": "Pepperoni Pizza",
+    "category": "Prepared Dishes",
+    "weight": 150,
+    "carbohydrates": 45,
+    "strategy": {
+      "type": "combo",
+      "howTo": "60% upfront, 40% over 2 hours",
+      "reasoning": "High-fat, high-carb meals like pizza cause a delayed glucose spike. A combo bolus prevents an initial low followed by a later high."
+    }
+  },
+  "spaghetti_bolognese": {
+    "dishName": "Spaghetti Bolognese",
+    "category": "Starchy Foods",
+    "weight": 350,
+    "carbohydrates": 60,
+    "strategy": {
+      "type": "combo",
+      "howTo": "50% upfront, 50% over 1.5 hours",
+      "reasoning": "The mix of fast-acting carbs from pasta and slower-digesting protein and fat from the sauce benefits from a split bolus."
+    }
+  },
+  "chicken_salad": {
+    "dishName": "Grilled Chicken Salad",
+    "category": "Vegetables",
+    "weight": 250,
+    "carbohydrates": 15,
+    "strategy": {
+      "type": "standard",
+      "howTo": "100% upfront",
+      "reasoning": "Low carbohydrate and protein content allows for a simple, standard bolus without a significant delay in glucose absorption."
+    }
+  },
+  "chocolate_cake": {
+    "dishName": "Chocolate Cake",
+    "category": "Sweets and Desserts",
+    "weight": 120,
+    "carbohydrates": 55,
+    "strategy": {
+      "type": "extended",
+      "howTo": "30% upfront, 70% over 3 hours",
+      "reasoning": "The high fat content in cake slows down the absorption of sugar, requiring an extended bolus to cover the long tail of glucose release."
+    }
+  }
+}

@@ -1,21 +1,23 @@
 <script setup lang="ts">
-import { NCard, NText } from 'naive-ui'
+import { NCard, NText } from "naive-ui";
 
 const { title, description } = defineProps<{
-  title: string
-  description?: string
-}>()
+  title: string;
+  description?: string;
+}>();
 </script>
 
 <template>
   <div class="placeholder-wrapper">
     <div class="content">
       <n-card>
-        <n-text tag="h3" style="margin-bottom: 1rem; display: block;">
+        <n-text tag="h3" style="margin-bottom: 1rem; display: block">
           {{ title }}
         </n-text>
         <n-text depth="3">
-          {{ description || `This ${title.toLowerCase()} feature is coming soon!` }}
+          {{
+            description || `This ${title.toLowerCase()} feature is coming soon!`
+          }}
         </n-text>
       </n-card>
     </div>
