@@ -5,8 +5,8 @@ import { CameraSharp } from "@vicons/ionicons5";
 
 const router = useRouter();
 
-function startPhotoAnalysis() {
-  router.push("/photo-analysis");
+function goToAddMealDetails() {
+  router.push("/add-meal-details");
 }
 </script>
 
@@ -15,7 +15,7 @@ function startPhotoAnalysis() {
     <n-card
       class="home-page-photo-button"
       hoverable
-      @click="startPhotoAnalysis"
+      @click="goToAddMealDetails"
       :content-style="{
         height: '100%',
         display: 'flex',

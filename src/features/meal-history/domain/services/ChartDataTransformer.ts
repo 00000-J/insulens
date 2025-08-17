@@ -26,7 +26,7 @@ const outcomeEmojis: Record<string, string> = {
 };
 
 export function transformToChartData(
-  meals: MealHistoryEntry[]
+  meals: MealHistoryEntry[],
 ): ChartDataPoint[] {
   const lastMeals = meals.slice(0, 10);
 

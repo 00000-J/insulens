@@ -21,7 +21,9 @@ export async function fetchMealAnalysisResult(
   userIcr: string,
 ): Promise<ProcessedAnalysisResult> {
   // Simulate network delay
-  await new Promise(resolve => setTimeout(resolve, 300 + Math.random() * 700));
+  await new Promise((resolve) =>
+    setTimeout(resolve, 300 + Math.random() * 700),
+  );
 
   // In this mock, we randomly select a meal analysis result.
   const mealIds = Object.keys(mealAnalysisData);

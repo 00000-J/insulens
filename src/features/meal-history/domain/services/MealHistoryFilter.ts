@@ -7,21 +7,21 @@ export function applyFilters(
   meals: MealHistoryEntry[],
   selectedMealType: MealTypeOption["value"],
   selectedStrategyType: StrategyTypeOption["value"],
-  selectedFeedback: FeedbackOption["value"]
+  selectedFeedback: FeedbackOption["value"],
 ): MealHistoryEntry[] {
   let filtered = [...meals];
 
   // Filter by meal type
   if (selectedMealType !== "all") {
     filtered = filtered.filter(
-      (meal) => meal.inputParameters.mealType === selectedMealType
+      (meal) => meal.inputParameters.mealType === selectedMealType,
     );
   }
 
   // Filter by strategy type
   if (selectedStrategyType !== "all") {
     filtered = filtered.filter(
-      (meal) => meal.analysisResult.strategy.type === selectedStrategyType
+      (meal) => meal.analysisResult.strategy.type === selectedStrategyType,
     );
   }
 
@@ -31,7 +31,7 @@ export function applyFilters(
       filtered = filtered.filter((meal) => !meal.userFeedback);
     } else {
       filtered = filtered.filter(
-        (meal) => meal.userFeedback?.glycemicOutcome === selectedFeedback
+        (meal) => meal.userFeedback?.glycemicOutcome === selectedFeedback,
       );
     }
   }

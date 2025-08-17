@@ -13,7 +13,7 @@ import {
 import { containers } from "../../domain/entities/Container";
 import { mealTypes } from "../../domain/entities/MealType";
 import { getMealTypeByTime } from "../../domain/services/MealTimeService";
-import { AnalyzePhotoUseCase } from "../../app/usecases/AnalyzePhotoUseCase";
+import { AddMealDetailsUseCase } from "../../app/usecases/AddMealDetailsUseCase";
 import { MockMealAnalysisService } from "../../infra/services/MockMealAnalysisService";
 import type { AnalysisParameters } from "../../app/contracts/IMealAnalysisService";
 import { useMealAnalysisStore } from "../../stores/mealAnalysisStore";
@@ -23,7 +23,7 @@ const mealAnalysisStore = useMealAnalysisStore();
 
 // Instantiate the use case with the mock service
 const mealAnalysisService = new MockMealAnalysisService();
-const analyzePhotoUseCase = new AnalyzePhotoUseCase(mealAnalysisService);
+const addMealDetailsUseCase = new AddMealDetailsUseCase(mealAnalysisService);
 
 // Reactive state
 const selectedContainer = ref("plate");
@@ -50,7 +50,7 @@ const mealTypes = [
   { value: "snack", label: "Snack" },
 ];
 
-async function analyzePhoto() {
+async function addMealDetails() {
   const params: AnalysisParameters = {
     container: selectedContainer.value,
     size: currentSize.value,
@@ -62,9 +62,10 @@ async function analyzePhoto() {
 
   mealAnalysisStore.setLoading(true);
   mealAnalysisStore.setError(null);
+  mealAnalysisStore.setAnalysisParameters(params);
 
   try {
-    const result = await analyzePhotoUseCase.execute(params);
+    const result = await addMealDetailsUseCase.execute(params);
     mealAnalysisStore.setAnalysisResult(result);
     router.push("/meal-analysis-results");
   } catch (error) {
@@ -141,7 +142,7 @@ const isAnalyzeDisabled = computed(() => {
 </script>
 
 <template>
-  <div class="page-container photo-analysis-screen">
+  <div class="page-container add-meal-details-screen">
     <!-- Main Content -->
     <n-card>
       <n-grid :cols="1" :y-gap="24">
@@ -252,7 +253,7 @@ const isAnalyzeDisabled = computed(() => {
       type="primary"
       size="large"
       block
-      @click="analyzePhoto"
+      @click="addMealDetails"
       class="analyze-button"
       :disabled="isAnalyzeDisabled"
     >

@@ -4,8 +4,8 @@ import type { RouteRecordRaw } from "vue-router";
 // Lazy-load screens for better performance
 const HomeScreen = () =>
   import("../features/meal-analysis/ui/pages/HomeScreen.vue");
-const PhotoAnalysisScreen = () =>
-  import("../features/meal-analysis/ui/pages/PhotoAnalysisScreen.vue");
+const AddMealDetailsScreen = () =>
+  import("../features/meal-analysis/ui/pages/AddMealDetailsScreen.vue");
 const MealAnalysisResultsScreen = () =>
   import("../features/meal-analysis/ui/pages/MealAnalysisResultsScreen.vue");
 const MealHistoryScreen = () =>
@@ -22,11 +22,13 @@ const MealRecommendationsScreen = () =>
 const routes: RouteRecordRaw[] = [
   {
     path: "/",
+    name: "Home",
     component: HomeScreen,
   },
   {
-    path: "/photo-analysis",
-    component: PhotoAnalysisScreen,
+    path: "/add-meal-details",
+    name: "AddMealDetails",
+    component: AddMealDetailsScreen,
   },
   {
     path: "/meal-analysis-results",

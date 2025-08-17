@@ -23,13 +23,21 @@ const settingsService = new SettingsService();
 const loadSettingsUseCase = new LoadSettingsUseCase(settingsService);
 const saveProfileUseCase = new SaveProfileUseCase(settingsService);
 const saveInsulinSettingsUseCase = new SaveInsulinSettingsUseCase(
-  settingsService
+  settingsService,
 );
-const saveAppPreferencesUseCase = new SaveAppPreferencesUseCase(settingsService);
+const saveAppPreferencesUseCase = new SaveAppPreferencesUseCase(
+  settingsService,
+);
 
 export const useUserSettingsStore = defineStore("userSettings", {
   state: (): UserSettingsState => ({
-    profile: { name: "", age: "", weight: "", medicalNotes: "" },
+    profile: {
+      name: "",
+      age: "",
+      weight: "",
+      gender: "",
+      medicalNotes: "",
+    },
     insulin: { carbRatio: "1:10" },
     preferences: {
       units: "metric",
@@ -50,9 +58,12 @@ export const useUserSettingsStore = defineStore("userSettings", {
         if (profile) this.profile = profile;
         if (insulin) this.insulin = insulin;
         if (preferences) this.preferences = preferences;
+
+        // Initialize theme based on loaded preferences
+        const themeStore = useThemeStore();
+        themeStore.set(this.preferences.darkMode);
       } catch (e) {
-        this.error =
-          e instanceof Error ? e.message : "Failed to load settings";
+        this.error = e instanceof Error ? e.message : "Failed to load settings";
       } finally {
         this.isLoading = false;
       }

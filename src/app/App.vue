@@ -1,16 +1,18 @@
 <script setup lang="ts">
 import { computed, onMounted } from "vue";
 import { darkTheme, NConfigProvider, NMessageProvider } from "naive-ui";
-import { useThemeStore } from "./stores/theme";
+import { useUserSettingsStore } from "../features/user-settings/stores/userSettingsStore";
 import BottomNavigation from "../shared/ui/components/BottomNavigation.vue";
 
-const themeStore = useThemeStore();
+const userSettingsStore = useUserSettingsStore();
 
 onMounted(() => {
-  themeStore.load();
+  userSettingsStore.loadSettings();
 });
 
-const currentTheme = computed(() => (themeStore.isDark ? darkTheme : null));
+const currentTheme = computed(() =>
+  userSettingsStore.preferences.darkMode ? darkTheme : null,
+);
 </script>
 
 <template>

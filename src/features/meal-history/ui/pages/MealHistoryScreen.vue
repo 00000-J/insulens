@@ -1,15 +1,24 @@
 <script setup lang="ts">
 import { onMounted, computed } from "vue";
 import { useRouter } from "vue-router";
-import { NCard, NSelect, NSpace, NText, NEmpty, NSpin, NGrid, NGridItem } from "naive-ui";
+import {
+  NCard,
+  NSelect,
+  NSpace,
+  NText,
+  NEmpty,
+  NSpin,
+  NGrid,
+  NGridItem,
+} from "naive-ui";
 import { useMealHistoryStore } from "../../stores/mealHistoryStore";
 import { mealTypeOptions } from "../../domain/entities/MealTypeFilter";
 import { strategyTypeOptions } from "../../domain/entities/StrategyTypeFilter";
 import { feedbackOptions } from "../../domain/entities/FeedbackFilter";
 import { getTimeAgo } from "../../domain/services/DateFormatter";
 import { transformToChartData } from "../../domain/services/ChartDataTransformer";
-import { getFeedbackDisplayText } from "../../infra/services/MealHistoryApi"; // This can be moved later
-import type { MealHistoryEntry } from "../../infra/services/MealHistoryApi";
+import { getFeedbackDisplayText } from "../../domain/services/FeedbackFormatter";
+import type { MealHistoryEntry } from "../../../../shared/domain/entities/MealHistory";
 
 const router = useRouter();
 const mealHistoryStore = useMealHistoryStore();
@@ -17,7 +26,7 @@ const mealHistoryStore = useMealHistoryStore();
 const filteredMeals = computed(() => mealHistoryStore.filteredMeals);
 const isLoading = computed(() => mealHistoryStore.isLoading);
 const chartData = computed(() =>
-  transformToChartData(mealHistoryStore.filteredMeals)
+  transformToChartData(mealHistoryStore.filteredMeals),
 );
 
 function openFeedback(meal: MealHistoryEntry) {

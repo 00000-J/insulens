@@ -4,13 +4,24 @@ import type {
   AnalysisResult,
 } from "../../app/contracts/IMealAnalysisService";
 import { fetchMealAnalysisResult } from "./MealAnalysisApi";
+import { SettingsService } from "../../../user-settings/infra/services/SettingsService";
 
 export class MockMealAnalysisService implements IMealAnalysisService {
   public async analyze(_params: AnalysisParameters): Promise<AnalysisResult> {
-    console.log("Mock analysis service called with:", _params);
+    const settingsService = new SettingsService();
+    const appPreferences = await settingsService.loadAppPreferences();
+    const userProfile = await settingsService.loadProfile();
+
+    console.log("Mock analysis service called with:", {
+      analysis_data: {
+        meal_details: _params,
+        "CapacitorStorage.app_preferences": appPreferences,
+        "CapacitorStorage.user_profile": userProfile,
+      },
+    });
 
     // Simulate network delay
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise((resolve) => setTimeout(resolve, 1000));
 
     // In this mock, we use the actual fetch logic but with a hardcoded ICR.
     // This is to simulate a realistic analysis result.

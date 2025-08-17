@@ -1,6 +1,15 @@
 <script setup lang="ts">
-import { onMounted, watch } from "vue";
-import { NSpace, NCard, NInput, NSelect, NText, NSwitch, NGrid, NGridItem } from "naive-ui";
+import { computed, onMounted, watch } from "vue";
+import {
+  NSpace,
+  NCard,
+  NInput,
+  NSelect,
+  NText,
+  NSwitch,
+  NGrid,
+  NGridItem,
+} from "naive-ui";
 import { useUserSettingsStore } from "../../stores/userSettingsStore";
 import { carbRatioOptions } from "../../domain/entities/CarbRatioOptions";
 import { unitOptions } from "../../domain/entities/UnitOptions";
@@ -12,12 +21,31 @@ onMounted(() => {
   userSettingsStore.loadSettings();
 });
 
+const ageOptions = computed(() => {
+  return Array.from({ length: 120 }, (_, i) => ({
+    value: String(i + 1),
+    label: `${i + 1} years`,
+  }));
+});
+
+const weightOptions = computed(() => {
+  return Array.from({ length: 300 }, (_, i) => ({
+    value: String(i + 1),
+    label: `${i + 1} kg`,
+  }));
+});
+
+const genderOptions = [
+  { value: "male", label: "Male" },
+  { value: "female", label: "Female" },
+];
+
 watch(
   () => userSettingsStore.profile,
   (val) => {
     userSettingsStore.saveProfile(val);
   },
-  { deep: true }
+  { deep: true },
 );
 
 watch(
@@ -25,7 +53,7 @@ watch(
   (val) => {
     userSettingsStore.saveInsulinSettings(val);
   },
-  { deep: true }
+  { deep: true },
 );
 
 watch(
@@ -33,7 +61,7 @@ watch(
   (val) => {
     userSettingsStore.saveAppPreferences(val);
   },
-  { deep: true }
+  { deep: true },
 );
 </script>
 
@@ -45,7 +73,7 @@ watch(
           <n-select
             v-model:value="userSettingsStore.insulin.carbRatio"
             placeholder="Insulin-to-Carb Ratio (ICR)"
-            :options="carbRatioOptions"
+            :options="carbRatioOptions as any"
           />
           <n-text depth="3" style="margin-bottom: 0.5rem">
             Insulin-to-Carbohydrate Ratio (ICR) — the number of grams of
@@ -56,27 +84,32 @@ watch(
 
       <n-card title="Profile">
         <n-grid :cols="2" :x-gap="12" :y-gap="12">
-          <n-grid-item :span="2">
+          <n-grid-item>
             <n-input
               v-model:value="userSettingsStore.profile.name"
               placeholder="Name"
             />
           </n-grid-item>
           <n-grid-item>
-            <n-input
-              v-model:value="userSettingsStore.profile.age"
-              placeholder="Age"
-            >
-              <template #suffix> years </template>
-            </n-input>
+            <n-select
+              v-model:value="userSettingsStore.profile.gender"
+              placeholder="Gender"
+              :options="genderOptions as any"
+            />
           </n-grid-item>
           <n-grid-item>
-            <n-input
+            <n-select
+              v-model:value="userSettingsStore.profile.age"
+              placeholder="Age"
+              :options="ageOptions as any"
+            />
+          </n-grid-item>
+          <n-grid-item>
+            <n-select
               v-model:value="userSettingsStore.profile.weight"
               placeholder="Weight"
-            >
-              <template #suffix> kg </template>
-            </n-input>
+              :options="weightOptions as any"
+            />
           </n-grid-item>
           <n-grid-item :span="2">
             <n-text>Medical Notes</n-text>
@@ -97,18 +130,16 @@ watch(
           <n-select
             v-model:value="userSettingsStore.preferences.units"
             placeholder="Units"
-            :options="unitOptions"
+            :options="unitOptions as any"
           />
           <n-select
             v-model:value="userSettingsStore.preferences.language"
             placeholder="Language"
-            :options="languageOptions"
+            :options="languageOptions as any"
           />
           <n-space align="center" justify="space-between">
             <n-text>Dark Mode</n-text>
-            <n-switch
-              v-model:value="userSettingsStore.preferences.darkMode"
-            />
+            <n-switch v-model:value="userSettingsStore.preferences.darkMode" />
           </n-space>
           <n-space align="center" justify="space-between">
             <n-text>Sound</n-text>

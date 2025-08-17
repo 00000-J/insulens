@@ -39,9 +39,7 @@ const extendedUnits = computed(() => {
           <div class="text-stack-bottom">Weight</div>
         </n-grid-item>
         <n-grid-item>
-          <div class="text-stack-top">
-            {{ analysisResult.carbohydrates }}g
-          </div>
+          <div class="text-stack-top">{{ analysisResult.carbohydrates }}g</div>
           <div class="text-stack-bottom">Carbs</div>
         </n-grid-item>
         <n-grid-item>
@@ -86,7 +84,7 @@ const extendedUnits = computed(() => {
           <div class="text-stack-bottom">post</div>
         </n-grid-item>
       </n-grid>
-      <n-grid :cols="1" :y-gap="1" >
+      <n-grid :cols="1" :y-gap="1">
         <n-grid-item>
           <n-text>{{ analysisResult.strategy.howTo }}</n-text>
         </n-grid-item>

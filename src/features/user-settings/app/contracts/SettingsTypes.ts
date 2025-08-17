@@ -2,6 +2,7 @@ export interface ProfileSettings {
   name: string;
   age: string;
   weight: string;
+  gender: "male" | "female" | "";
   medicalNotes: string;
 }
 

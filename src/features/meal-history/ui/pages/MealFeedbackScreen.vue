@@ -3,14 +3,17 @@ import { ref, onMounted } from "vue";
 import { useRouter } from "vue-router";
 import { NButton, NSlider, NInput, useMessage } from "naive-ui";
 import {
-  submitUserFeedback,
-  type MealHistoryEntry,
-  type UserFeedback,
-} from "../../infra/services/MealHistoryApi";
+  MealHistoryEntry,
+  UserFeedback,
+} from "../../../../shared/domain/entities/MealHistory";
+import { MealHistoryService } from "../../infra/services/MealHistoryService";
+import { SubmitFeedbackUseCase } from "../../app/usecases/SubmitFeedbackUseCase";
 import MealAnalysisResult from "../../../meal-analysis/ui/components/MealAnalysisResult.vue";
 
 const router = useRouter();
 const message = useMessage();
+const mealHistoryService = new MealHistoryService();
+const submitFeedbackUseCase = new SubmitFeedbackUseCase(mealHistoryService);
 
 // State
 const selectedMeal = ref<MealHistoryEntry | null>(null);
@@ -91,7 +94,7 @@ async function submitFeedback() {
   try {
     isSubmitting.value = true;
 
-    await submitUserFeedback(selectedMeal.value.id, {
+    await submitFeedbackUseCase.execute(selectedMeal.value.id, {
       glycemicOutcome: selectedOutcome.value,
       symptomNotes: symptomNotes.value.trim(),
     });
@@ -112,8 +115,6 @@ async function submitFeedback() {
     isSubmitting.value = false;
   }
 }
-
-
 </script>
 
 <template>
@@ -127,31 +128,45 @@ async function submitFeedback() {
       <!-- Feedback Form -->
       <div class="feedback-form">
         <div class="question-section">
-
-
           <!-- Glycemic Outcome Slider -->
           <div class="slider-section">
             <div class="slider-labels">
-              <div v-for="option in glycemicOptions" :key="option.value" class="slider-label"
-                :class="{ active: option.value === selectedOutcome }">
+              <div
+                v-for="option in glycemicOptions"
+                :key="option.value"
+                class="slider-label"
+                :class="{ active: option.value === selectedOutcome }"
+              >
                 <div class="slider-emoji">{{ option.emoji }}</div>
                 <div class="slider-text">{{ option.label }}</div>
               </div>
             </div>
 
-            <n-slider v-model:value="sliderValue" :min="1" :max="5" :step="1" :tooltip="false" class="glycemic-slider"
-              @update:value="onSliderChange" />
+            <n-slider
+              v-model:value="sliderValue"
+              :min="1"
+              :max="5"
+              :step="1"
+              :tooltip="false"
+              class="glycemic-slider"
+              @update:value="onSliderChange"
+            />
           </div>
-
         </div>
 
         <!-- Symptoms & Notes -->
         <div class="notes-section">
           <div class="parameter-label">Symptoms & Notes (Optional):</div>
-          <n-input v-model:value="symptomNotes" type="textarea" placeholder="Felt calm and energized." :rows="3"
-            maxlength="200" show-count class="notes-input" />
+          <n-input
+            v-model:value="symptomNotes"
+            type="textarea"
+            placeholder="Felt calm and energized."
+            :rows="3"
+            maxlength="200"
+            show-count
+            class="notes-input"
+          />
         </div>
-
       </div>
     </n-card>
     <n-button type="primary" size="large" block @click="submitFeedback">

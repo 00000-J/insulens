@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import type { MealHistoryEntry } from "../infra/services/MealHistoryApi";
+import type { MealHistoryEntry } from "../../../../shared/domain/entities/MealHistory";
 import { applyFilters } from "../domain/services/MealHistoryFilter";
 import { GetMealHistoryUseCase } from "../app/usecases/GetMealHistoryUseCase";
 import { MealHistoryService } from "../infra/services/MealHistoryService";
@@ -34,7 +34,7 @@ export const useMealHistoryStore = defineStore("mealHistory", {
       try {
         const mealHistoryService = new MealHistoryService();
         const getMealHistoryUseCase = new GetMealHistoryUseCase(
-          mealHistoryService
+          mealHistoryService,
         );
         this.allMeals = await getMealHistoryUseCase.execute();
         this.applyFilters();
@@ -50,7 +50,7 @@ export const useMealHistoryStore = defineStore("mealHistory", {
         this.allMeals,
         this.selectedMealType,
         this.selectedStrategyType,
-        this.selectedFeedback
+        this.selectedFeedback,
       );
     },
     setMealTypeFilter(mealType: MealTypeOption["value"]) {

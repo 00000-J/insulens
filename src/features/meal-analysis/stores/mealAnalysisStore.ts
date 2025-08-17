@@ -1,7 +1,11 @@
 import { defineStore } from "pinia";
-import type { AnalysisResult } from "../app/contracts/IMealAnalysisService";
+import type {
+  AnalysisResult,
+  AnalysisParameters,
+} from "../app/contracts/IMealAnalysisService";
 
 interface MealAnalysisState {
+  analysisParameters: AnalysisParameters | null;
   analysisResult: AnalysisResult | null;
   isLoading: boolean;
   error: string | null;
@@ -9,11 +13,15 @@ interface MealAnalysisState {
 
 export const useMealAnalysisStore = defineStore("mealAnalysis", {
   state: (): MealAnalysisState => ({
+    analysisParameters: null,
     analysisResult: null,
     isLoading: false,
     error: null,
   }),
   actions: {
+    setAnalysisParameters(params: AnalysisParameters) {
+      this.analysisParameters = params;
+    },
     setAnalysisResult(result: AnalysisResult) {
       this.analysisResult = result;
     },

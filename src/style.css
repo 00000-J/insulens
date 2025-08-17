@@ -105,14 +105,15 @@ body {
   min-height: calc(100vh - 80px);
   position: relative;
 }
- .meal-analysis-screen::before, .photo-analysis-screen::before {
+.meal-analysis-screen::before,
+.add-meal-details-screen::before {
+  background-image: url("/images/temp/pizza-plate.jpg");
   content: "";
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("/images/temp/pizza-plate.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -176,33 +177,31 @@ body {
   }
 }
 
-
-
-.meal-feedback-screen{
+.meal-feedback-screen {
   .slider-labels {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
     padding: 0 0.5rem;
   }
-  
+
   .slider-label {
     text-align: center;
     flex: 1;
     transition: all 0.2s ease;
     opacity: 0.6;
   }
-  
+
   .slider-label.active {
     opacity: 1;
     transform: scale(1.05);
   }
-  
+
   .slider-emoji {
     font-size: 1.25rem;
     margin-bottom: 0.25rem;
   }
-  
+
   .slider-text {
     font-size: 0.75rem;
     line-height: 1.2;
@@ -210,13 +209,13 @@ body {
     color: var(--text-color-2);
     font-weight: 500;
   }
-  
+
   .slider-label.active .slider-text {
     color: var(--text-color);
     font-weight: 600;
   }
-  
+
   .glycemic-slider {
     margin: 1rem 0;
   }
-  }
+}
