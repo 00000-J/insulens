@@ -3,6 +3,7 @@ import mealAnalysisData from "../data/meal-analysis-results.json";
 import type {
   ProcessedAnalysisResult,
   StrategyType,
+  MealCategory,
 } from "../../../../shared/domain/entities/MealTypes";
 import { STRATEGY_CONSTANTS } from "../../../../shared/domain/entities/MealTypes";
 
@@ -44,7 +45,7 @@ export async function fetchMealAnalysisResult(
 
   return {
     dishName: mealData.dishName,
-    category: mealData.category,
+    category: mealData.category as MealCategory,
     weight: mealData.weight,
     carbohydrates: mealData.carbohydrates,
     insulin,

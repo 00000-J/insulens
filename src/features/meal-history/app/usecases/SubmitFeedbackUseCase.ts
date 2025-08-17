@@ -1,13 +1,10 @@
-import type { IMealHistoryService } from "../contracts/IMealHistoryService";
-import type { UserFeedback } from "../../../../shared/domain/entities/MealHistory";
+import { IMealHistoryService } from '../contracts/IMealHistoryService';
+import type { UserFeedback } from '../../../../shared/domain/entities/UserFeedback';
 
 export class SubmitFeedbackUseCase {
   constructor(private mealHistoryService: IMealHistoryService) {}
 
-  public async execute(
-    mealId: string,
-    feedback: Omit<UserFeedback, "submittedAt">,
-  ): Promise<void> {
+  async execute(mealId: string, feedback: UserFeedback): Promise<void> {
     return this.mealHistoryService.submitFeedback(mealId, feedback);
   }
 }

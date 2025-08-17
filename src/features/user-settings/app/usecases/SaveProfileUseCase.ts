@@ -1,13 +1,10 @@
-import type {
-  ISettingsService,
-  ProfileSettings,
-} from "../contracts/SettingsTypes";
+import { ISettingsService } from '../contracts/ISettingsService';
+import { Profile } from '../contracts/SettingsTypes';
 
 export class SaveProfileUseCase {
   constructor(private settingsService: ISettingsService) {}
 
-  async execute(profile: ProfileSettings): Promise<void> {
-    // You could add validation logic here before saving
-    return this.settingsService.saveProfile(profile);
+  async execute(profile: Profile): Promise<void> {
+    await this.settingsService.saveProfile(profile);
   }
 }

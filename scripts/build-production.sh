@@ -24,7 +24,7 @@ declare -a PIPELINE_STEPS=(
     "run_tests|npm run test|🧪 Running tests"
     "build_project|npm run build|📦 Building project"
     "sync_capacitor|npx cap sync ios|📱 Syncing Capacitor iOS"
-    "generate_icons|./scripts/generate-ios-icons.sh|🎨 Generating iOS icons"
+    "generate_icons|npx capacitor-assets generate --ios|🎨 Generating iOS icons"
 )
 
 # Utility functions
@@ -135,27 +135,11 @@ build_project() {
     fi
 }
 
-sync_capacitor() {
-    log_step "📱 Syncing Capacitor iOS"
-    start_timer
-    
-    if npx cap sync ios 2>&1 | tee -a "$LOG_FILE"; then
-        log_success "Capacitor iOS sync completed"
-        end_timer
-        return 0
-    else
-        return ${PIPESTATUS[0]}
-    fi
-}
-
 generate_icons() {
     log_step "🎨 Generating iOS icons"
     start_timer
     
-    # Ensure the script is executable
-    chmod +x "$PROJECT_ROOT/scripts/generate-ios-icons.sh"
-    
-    if "$PROJECT_ROOT/scripts/generate-ios-icons.sh" 2>&1 | tee -a "$LOG_FILE"; then
+    if npx capacitor-assets generate --ios 2>&1 | tee -a "$LOG_FILE"; then
         log_success "iOS icons generated successfully"
         end_timer
         return 0
@@ -177,7 +161,6 @@ pre_flight_checks() {
     # Check for required files
     local required_files=(
         "package.json"
-        "scripts/generate-ios-icons.sh"
         "capacitor.config.ts"
     )
     
@@ -196,6 +179,12 @@ pre_flight_checks() {
             exit 1
         fi
     done
+    
+    # Check for assets directory
+    if [ ! -d "$PROJECT_ROOT/assets" ]; then
+        log_error "Assets directory not found. Please create an 'assets' directory with an 'icon.png' and 'splash.png'."
+        exit 1
+    fi
     
     log_success "Pre-flight checks passed"
 }
@@ -264,7 +253,7 @@ show_help() {
     echo "  3. 🧪 Run tests (npm run test)"
     echo "  4. 📦 Build project (npm run build)"
     echo "  5. 📱 Sync Capacitor iOS (npx cap sync ios)"
-    echo "  6. 🎨 Generate iOS icons (./scripts/generate-ios-icons.sh)"
+    echo "  6. 🎨 Generate iOS icons (npx capacitor-assets generate --ios)"
     echo ""
     echo "The pipeline will stop at the first failed step."
 }

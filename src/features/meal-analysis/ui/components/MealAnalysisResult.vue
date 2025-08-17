@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import {
-  getStrategyConstants,
-  type ProcessedAnalysisResult,
-} from "../../infra/services/MealAnalysisApi";
+import { computed } from 'vue';
+import { NCard, NTag, NIcon, NText, NH2, NP, NButton } from 'naive-ui';
+import { getStrategyConstants } from '../../infra/services/MealAnalysisApi';
+import type { ProcessedAnalysisResult } from '../../../../shared/domain/entities/MealTypes';
+import { STRATEGY_CONSTANTS } from '../../../../shared/domain/entities/MealTypes';
+import { restaurantOutline as restaurantIcon } from '@vicons/ionicons5';
 
 const props = defineProps<{
   analysisResult: ProcessedAnalysisResult;
@@ -25,7 +26,7 @@ const extendedUnits = computed(() => {
 </script>
 
 <template>
-  <div>
+  <div class="meal-analysis-result">
     <!-- Analysis Result Card -->
     <n-card
       :title="`${analysisResult.dishName}`"
@@ -92,3 +93,9 @@ const extendedUnits = computed(() => {
     </n-card>
   </div>
 </template>
+
+<style scoped>
+.meal-analysis-result {
+  max-width: 600px;
+}
+</style>

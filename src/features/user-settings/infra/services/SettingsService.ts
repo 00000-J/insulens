@@ -1,10 +1,14 @@
 import { Preferences } from "@capacitor/preferences";
-import type {
-  ISettingsService,
-  ProfileSettings,
-  InsulinSettings,
-  AppPreferences,
-} from "./SettingsTypes";
+import {
+  LANGUAGES,
+  UNITS,
+  CARB_RATIO_OPTIONS,
+} from "../../domain/entities/UserSettings";
+import {
+  type Profile,
+  type InsulinSettings,
+  type AppPreferences,
+} from "../../app/contracts/SettingsTypes";
 
 const PROFILE_KEY = "user_profile";
 const INSULIN_KEY = "insulin_settings";

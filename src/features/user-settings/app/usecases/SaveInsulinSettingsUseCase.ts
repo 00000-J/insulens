@@ -1,12 +1,10 @@
-import type {
-  ISettingsService,
-  InsulinSettings,
-} from "../contracts/SettingsTypes";
+import { ISettingsService } from '../contracts/ISettingsService';
+import { InsulinSettings } from '../contracts/SettingsTypes';
 
 export class SaveInsulinSettingsUseCase {
   constructor(private settingsService: ISettingsService) {}
 
-  async execute(settings: InsulinSettings): Promise<void> {
-    return this.settingsService.saveInsulinSettings(settings);
+  async execute(insulinSettings: InsulinSettings): Promise<void> {
+    await this.settingsService.saveInsulinSettings(insulinSettings);
   }
 }

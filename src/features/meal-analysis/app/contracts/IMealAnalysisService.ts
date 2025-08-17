@@ -1,3 +1,7 @@
+import { ProcessedAnalysisResult } from '../../infra/services/MealAnalysisApi';
+import { MealHistoryEntry } from '../../../../shared/domain/entities/MealHistory';
+import { MealType } from '../../domain/entities/MealType';
+
 export interface AnalysisParameters {
   container: string;
   size: number;

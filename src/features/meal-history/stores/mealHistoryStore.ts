@@ -3,6 +3,7 @@ import type { MealHistoryEntry } from "../../../../shared/domain/entities/MealHi
 import { applyFilters } from "../domain/services/MealHistoryFilter";
 import { GetMealHistoryUseCase } from "../app/usecases/GetMealHistoryUseCase";
 import { MealHistoryService } from "../infra/services/MealHistoryService";
+import { SubmitFeedbackUseCase } from "../../app/usecases/SubmitFeedbackUseCase";
 import type { MealTypeOption } from "../domain/entities/MealTypeFilter";
 import type { StrategyTypeOption } from "../domain/entities/StrategyTypeFilter";
 import type { FeedbackOption } from "../domain/entities/FeedbackFilter";

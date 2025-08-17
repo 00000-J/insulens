@@ -9,14 +9,19 @@ import {
   NButtonGroup,
   NGrid,
   NGridItem,
+  NForm,
+  NFormItem,
+  NSelect,
 } from "naive-ui";
-import { containers } from "../../domain/entities/Container";
-import { mealTypes } from "../../domain/entities/MealType";
+import { useMealAnalysisStore } from "../../stores/mealAnalysisStore";
+import type { MealHistoryEntry } from "../../../../shared/domain/entities/MealHistory";
+import { mealTypes } from "../../../../shared/domain/entities/MealTypes";
+import type { Container } from "../../../../shared/domain/entities/Container";
+import { containerOptions } from "../../../../shared/domain/entities/Container";
 import { getMealTypeByTime } from "../../domain/services/MealTimeService";
 import { AddMealDetailsUseCase } from "../../app/usecases/AddMealDetailsUseCase";
 import { MockMealAnalysisService } from "../../infra/services/MockMealAnalysisService";
 import type { AnalysisParameters } from "../../app/contracts/IMealAnalysisService";
-import { useMealAnalysisStore } from "../../stores/mealAnalysisStore";
 
 const router = useRouter();
 const mealAnalysisStore = useMealAnalysisStore();

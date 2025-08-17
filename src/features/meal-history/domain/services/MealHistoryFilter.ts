@@ -1,13 +1,13 @@
-import type { MealHistoryEntry } from "../../infra/services/MealHistoryApi";
-import type { MealTypeOption } from "../entities/MealTypeFilter";
-import type { StrategyTypeOption } from "../entities/StrategyTypeFilter";
-import type { FeedbackOption } from "../entities/FeedbackFilter";
+import type { MealHistoryEntry } from '../../../../shared/domain/entities/MealHistory';
+import type { FeedbackFilter } from '../entities/FeedbackFilter';
+import type { MealTypeFilter } from '../entities/MealTypeFilter';
+import type { StrategyTypeFilter } from '../entities/StrategyTypeFilter';
 
 export function applyFilters(
   meals: MealHistoryEntry[],
-  selectedMealType: MealTypeOption["value"],
-  selectedStrategyType: StrategyTypeOption["value"],
-  selectedFeedback: FeedbackOption["value"],
+  selectedMealType: MealTypeFilter["value"],
+  selectedStrategyType: StrategyTypeFilter["value"],
+  selectedFeedback: FeedbackFilter["value"],
 ): MealHistoryEntry[] {
   let filtered = [...meals];
 

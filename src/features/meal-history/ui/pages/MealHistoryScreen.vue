@@ -19,6 +19,7 @@ import { getTimeAgo } from "../../domain/services/DateFormatter";
 import { transformToChartData } from "../../domain/services/ChartDataTransformer";
 import { getFeedbackDisplayText } from "../../domain/services/FeedbackFormatter";
 import type { MealHistoryEntry } from "../../../../shared/domain/entities/MealHistory";
+import type { SelectMixedOption } from "naive-ui/es/select/src/interface";
 
 const router = useRouter();
 const mealHistoryStore = useMealHistoryStore();
@@ -27,6 +28,25 @@ const filteredMeals = computed(() => mealHistoryStore.filteredMeals);
 const isLoading = computed(() => mealHistoryStore.isLoading);
 const chartData = computed(() =>
   transformToChartData(mealHistoryStore.filteredMeals),
+);
+
+const mealTypeFilterOptions: SelectMixedOption[] = mealTypeOptions.map(
+  (option) => ({
+    ...option,
+    type: "option",
+  }),
+);
+const strategyTypeFilterOptions: SelectMixedOption[] = strategyTypeOptions.map(
+  (option) => ({
+    ...option,
+    type: "option",
+  }),
+);
+const feedbackFilterOptions: SelectMixedOption[] = feedbackOptions.map(
+  (option) => ({
+    ...option,
+    type: "option",
+  }),
 );
 
 function openFeedback(meal: MealHistoryEntry) {
@@ -47,19 +67,19 @@ onMounted(() => {
           <n-select
             :value="mealHistoryStore.selectedMealType"
             @update:value="mealHistoryStore.setMealTypeFilter"
-            :options="mealTypeOptions"
+            :options="mealTypeFilterOptions"
             style="min-width: 100px"
           />
           <n-select
             :value="mealHistoryStore.selectedStrategyType"
             @update:value="mealHistoryStore.setStrategyTypeFilter"
-            :options="strategyTypeOptions"
+            :options="strategyTypeFilterOptions"
             style="min-width: 110px"
           />
           <n-select
             :value="mealHistoryStore.selectedFeedback"
             @update:value="mealHistoryStore.setFeedbackFilter"
-            :options="feedbackOptions"
+            :options="feedbackFilterOptions"
             style="min-width: 120px"
           />
         </n-space>
@@ -132,3 +152,9 @@ onMounted(() => {
     </n-spin>
   </div>
 </template>
+
+<style scoped>
+.meal-history-screen {
+  padding: 1rem;
+}
+</style>

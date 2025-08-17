@@ -1,4 +1,5 @@
-import type { MealHistoryEntry } from "../../infra/services/MealHistoryApi";
+import type { MealHistoryEntry } from '../../../../shared/domain/entities/MealHistory';
+import { group, sum } from 'd3-array';
 
 export interface ChartDataPoint {
   id: string;

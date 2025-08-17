@@ -1,12 +1,10 @@
-import type {
-  ISettingsService,
-  AppPreferences,
-} from "../contracts/SettingsTypes";
+import { ISettingsService } from '../contracts/ISettingsService';
+import { AppPreferences } from '../contracts/SettingsTypes';
 
 export class SaveAppPreferencesUseCase {
   constructor(private settingsService: ISettingsService) {}
 
-  async execute(prefs: AppPreferences): Promise<void> {
-    return this.settingsService.saveAppPreferences(prefs);
+  async execute(appPreferences: AppPreferences): Promise<void> {
+    await this.settingsService.saveAppPreferences(appPreferences);
   }
 }

@@ -1,11 +1,13 @@
 import { Preferences } from "@capacitor/preferences";
-import type { MealHistoryEntry } from "../../../../shared/domain/entities/MealHistory";
-import type { IMealHistoryService } from "../../app/contracts/IMealHistoryService";
-import type { UserFeedback } from "../../../../shared/domain/entities/UserFeedback";
+import { MealHistoryEntry } from '../../../../shared/domain/entities/MealHistory';
+import { IMealHistoryService } from '../../app/contracts/IMealHistoryService';
+import type { UserFeedback } from '../../../../shared/domain/entities/UserFeedback';
 
 const MEAL_HISTORY_KEY = "mealHistory";
 
 export class MealHistoryService implements IMealHistoryService {
+  private mealHistory: MealHistoryEntry[] = [];
+
   public async fetchHistory(): Promise<MealHistoryEntry[]> {
     try {
       const { value } = await Preferences.get({ key: MEAL_HISTORY_KEY });

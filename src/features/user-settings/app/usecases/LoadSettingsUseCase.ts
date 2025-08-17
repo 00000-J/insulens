@@ -1,23 +1,14 @@
-import type {
-  ISettingsService,
-  ProfileSettings,
-  InsulinSettings,
-  AppPreferences,
-} from "../contracts/SettingsTypes";
+import { ISettingsService } from '../contracts/ISettingsService';
+import { AppPreferences, InsulinSettings, Profile } from '../contracts/SettingsTypes';
 
 export class LoadSettingsUseCase {
   constructor(private settingsService: ISettingsService) {}
 
   async execute(): Promise<{
-    profile: ProfileSettings | null;
-    insulin: InsulinSettings | null;
-    preferences: AppPreferences | null;
+    profile: Profile;
+    insulinSettings: InsulinSettings;
+    appPreferences: AppPreferences;
   }> {
-    const [profile, insulin, preferences] = await Promise.all([
-      this.settingsService.loadProfile(),
-      this.settingsService.loadInsulinSettings(),
-      this.settingsService.loadAppPreferences(),
-    ]);
-    return { profile, insulin, preferences };
+    return this.settingsService.loadSettings();
   }
 }

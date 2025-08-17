@@ -5,7 +5,8 @@ import { useMealAnalysisStore } from "../../stores/mealAnalysisStore";
 import MealAnalysisResult from "../components/MealAnalysisResult.vue";
 import { MealHistoryService } from "../../../meal-history/infra/services/MealHistoryService";
 import { NCard, NSpin, NAlert, NButton } from "naive-ui";
-import type { ProcessedAnalysisResult } from "../../infra/services/MealAnalysisApi";
+import type { ProcessedAnalysisResult } from '../../../../shared/domain/entities/MealTypes';
+import type { MealHistoryEntry } from '../../../../shared/domain/entities/MealHistory';
 
 const router = useRouter();
 const mealAnalysisStore = useMealAnalysisStore();
@@ -24,7 +25,7 @@ async function acceptAnalysis(result: ProcessedAnalysisResult) {
 
   try {
     const mealHistoryService = new MealHistoryService();
-    const newEntry = {
+    const newEntry: MealHistoryEntry = {
       id: `analysis_${new Date().getTime()}_${Math.random()
         .toString(36)
         .substring(2, 9)}`,
